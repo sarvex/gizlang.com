@@ -1,9 +1,13 @@
 # Menu
 
 ## [Learn](/learn)
+
 ## [News](/news)
+
 ## [Source](/source)
+
 ## [Community](/community)
+
 ## [Sponser](/sponser)
 
 ## Pages

@@ -67,7 +67,7 @@ export default component$(() => {
     { label: 'Reddit', icon: IconArrowDownRight, href: 'reddit.com/gizlang' },
     { label: 'Slack', icon: IconArrowDownRight, href: 'slack.com/gizlang' },
     { label: 'Telegram', icon: IconArrowDownRight, href: 'telegram.com/gizlang' },
-    { label: 'Youtube',  icon: IconArrowDownRight, href: 'youtube.com/gizlang' },
+    { label: 'Youtube', icon: IconArrowDownRight, href: 'youtube.com/gizlang' },
     { label: 'Twitch', icon: IconArrowDownRight, href: 'twitch.com/gizlang' },
     { label: 'Discord', icon: IconArrowDownRight, href: 'discord.com/gizlang' },
   ];
@@ -82,9 +82,7 @@ export default component$(() => {
                 Giz
               </Link>
             </div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">
-              Programming should be easy to read
-            </div>
+            <div class="text-sm text-gray-600 dark:text-gray-400">Programming should be easy to read</div>
           </div>
           {links.map(({ title, items }) => (
             <div class="col-span-6 md:col-span-3 lg:col-span-2">
