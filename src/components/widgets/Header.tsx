@@ -41,7 +41,7 @@ export default component$(() => {
           <nav
             class="items-center w-full md:w-auto hidden md:flex text-gray-500 dark:text-slate-200 h-[calc(100vh-100px)] md:h-auto overflow-y-auto md:overflow-visible pr-4"
             aria-label="Main navigation">
-            {menu && menu.items ? (
+            {menu?.items ? (
               <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-lg">
                 {menu.items?.map((item) => (
                   <li class={`${item.items ? 'dropdown' : ''}`}>

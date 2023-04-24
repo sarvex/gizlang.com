@@ -8,12 +8,12 @@
 
 ## [Community](/community)
 
-## [Sponser](/sponser)
+## [Sponsor](/sponsor)
 
 ## Pages
 
 - [Services](/services)
-- [Porfolio](/portfolio)
+- [Portfolio](/portfolio)
 - [About us](/about)
 
 ## [Blog](/blog)

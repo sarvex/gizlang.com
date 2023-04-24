@@ -58,7 +58,7 @@ export const findPostBySlug = async (slug: string): Promise<Post | null> => {
   if (!slug) return null;
 
   try {
-    const readFile = fs.readFileSync(BLOG_DIR + `/${slug}.md`, 'utf-8');
+    const readFile = fs.readFileSync(`${BLOG_DIR}/${slug}.md`, 'utf-8');
     const { data, content } = matter(readFile);
 
     const {

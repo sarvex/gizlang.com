@@ -16,7 +16,7 @@ export default component$(() => {
             <div>
               <h1 class="text-5xl md:text-[3.48rem] font-bold leading-tighter tracking-tighter mb-4 font-heading px-4 md:px-0">
                 Giz is a general-purpose programming language and toolchain for maintaining robust, optimal and reusable
-                software.r <br class="hidden lg:block" /> <span class="hidden lg:inline">create a website using </span>{' '}
+                software <br class="hidden lg:block" />
                 <span class="text-[#039de1]">No BS</span> +{' '}
                 <span class="sm:whitespace-nowrap text-[#039de1]">No NonSense</span>
               </h1>
@@ -33,7 +33,7 @@ export default component$(() => {
                       class="btn btn-primary sm:mb-0 w-full"
                       href="https://github.com/gizlang/giz"
                       target="_blank"
-                      rel="noopener">
+                      rel="noreferrer noopener">
                       Get involved
                     </a>
                   </div>
