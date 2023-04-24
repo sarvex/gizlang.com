@@ -42,6 +42,13 @@ export default component$(() => {
           'Get rid of not just Evil Corporations, but also from Evil Organizations',
         icon: 'tabler:bulb',
       },
+            {
+        title: '⚡ No Excuses - compiler does the heavy lifting, not the programmer',
+        description:
+          'The reason of existence of compiler and build system is to make the code more reliable and maintainable,  and to make the code more terse',
+        icon: 'tabler:bulb',
+      },
+    ],
     ],
   ];
 
