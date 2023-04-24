@@ -60,7 +60,7 @@ export default component$(() => {
     { label: 'Instagram', icon: IconInstagram, href: 'instagram.com/gizlang' },
     { label: 'Facebook', icon: IconFacebook, href: 'facebook.com/gizlang' },
     { label: 'Linkedin', icon: IconArrowDownRight, href: 'linkedin.com/gizlang' },
-    { label: 'Patreom', icon: IconArrowDownRight, href: 'patreon.com/gizlang' },
+    { label: 'Patreon', icon: IconArrowDownRight, href: 'patreon.com/gizlang' },
     { label: 'Medium', icon: IconArrowDownRight, href: 'medium.com/gizlang' },
     { label: 'Github', icon: IconGithub, href: 'https://github.com/gizlang' },
     { label: 'Stack Overflow', icon: IconArrowDownRight, href: 'stackoverflow.com/gizlang' },
@@ -119,7 +119,7 @@ export default component$(() => {
           </ul>
 
           <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
-            <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://gizlang.com/favicon/favicon-32x32.png)]"></span>
+            <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://gizlang.com/favicon/favicon-32x32.png)]" />
             Made by{' '}
             <a class="text-secondary-700 hover:underline dark:text-gray-200" href="https://gizlang.com/">
               {' '}
