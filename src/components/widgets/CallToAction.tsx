@@ -20,7 +20,7 @@ export default component$(() => {
                 class="btn btn-primary mb-4 sm:mb-0 w-full sm:w-auto"
                 href="https://github.com/gizlang/giz"
                 target="_blank"
-                rel="noopener">
+                rel="noreferrer noopener">
                 Get template
               </a>
             </div>
