@@ -54,9 +54,6 @@ export default component$(() => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             />
-            <h4 class="max-w-lg mb-4 text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto font-heading">
-              The Worst Programming Language Ever - Mark Rendle
-            </h4>
           </div>
         </div>
         <div class="max-w-screen-xl sm:mx-auto">
