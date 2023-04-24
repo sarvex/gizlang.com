@@ -12,11 +12,11 @@
 
 <img src="./screenshot.jpg" alt="Giz Theme Screenshot">
 
-[![onWidget](https://custom-icon-badges.demolab.com/badge/made%20by%20-onWidget-556bf2?style=flat-square&logo=onwidget&logoColor=white&labelColor=101827)](https://onwidget.com)
-[![License](https://img.shields.io/github/license/onwidget/giz?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/giz/blob/main/LICENSE.md)
-[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/onwidget)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/onwidget/giz#contributing)
-[![Known Vulnerabilities](https://snyk.io/test/github/onwidget/giz/badge.svg?style=flat-square)](https://snyk.io/test/github/onwidget/giz)
+[![gizlang](https://custom-icon-badges.demolab.com/badge/made%20by%20-gizlang-556bf2?style=flat-square&logo=gizlang&logoColor=white&labelColor=101827)](https://gizlang.com)
+[![License](https://img.shields.io/github/license/gizlang/giz?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/gizlang/giz/blob/main/LICENSE.md)
+[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/gizlang)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/gizlang/giz#contributing)
+[![Known Vulnerabilities](https://snyk.io/test/github/gizlang/giz/badge.svg?style=flat-square)](https://snyk.io/test/github/gizlang/giz)
 
 <br>
 
@@ -99,7 +99,7 @@ Inside **Giz** template, you'll see the following folders and files:
 
 - `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
 
-[![Edit Giz on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/onwidget/giz/tree/main)
+[![Edit Giz on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/gizlang/giz/tree/main)
 
 > **Seasoned qwik expert?** Delete this file. Update `config.mjs` and contents. Have fun!
 
@@ -155,13 +155,13 @@ prefer.
 
 Clone this repository on own GitHub account and deploy to Netlify:
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/giz)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gizlang/giz)
 
 #### Deploy to Vercel
 
 Clone this repository on own GitHub account and deploy to Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonwidget%2Fgiz)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgizlang%2Fgiz)
 
 <br>
 
@@ -192,8 +192,8 @@ That would be very useful for all of us and we would be happy to listen and take
 
 ## Acknowledgements
 
-Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/giz/graphs/contributors).
+Initially created by [gizlang](https://gizlang.com) and maintained by a community of [contributors](https://github.com/gizlang/giz/graphs/contributors).
 
 ## License
 
-**Giz** is licensed under the MIT license — see the [LICENSE](https://github.com/onwidget/giz/blob/main/LICENSE.md) file for details.
+**Giz** is licensed under the MIT license — see the [LICENSE](https://github.com/gizlang/giz/blob/main/LICENSE.md) file for details.

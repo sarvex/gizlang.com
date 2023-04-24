@@ -1,9 +1,15 @@
 # Menu
 
+## [Learn](/learn)
+## [News](/news)
+## [Source](/source)
+## [Community](/community)
+## [Sponser](/sponser)
+
 ## Pages
 
-- [Services](#)
-- [Porfolio](#)
-- [About us](#)
+- [Services](/services)
+- [Porfolio](/portfolio)
+- [About us](/about)
 
 ## [Blog](/blog)

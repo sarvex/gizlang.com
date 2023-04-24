@@ -79,7 +79,7 @@ export default component$(() => {
           <div class="hidden items-center md:flex">
             <ToggleTheme iconClass="w-6 h-6" />
             <a
-              href="https://github.com/onwidget/giz"
+              href="https://github.com/gizlang/giz"
               aria-label="Giz Github"
               class="ml-3 btn btn-primary w-full h-10 px-5 shadow-none text-base">
               Download

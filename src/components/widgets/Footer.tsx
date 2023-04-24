@@ -5,64 +5,71 @@ import { IconTwitter } from '~/components/icons/IconTwitter';
 import { IconInstagram } from '~/components/icons/IconInstagram';
 import { IconFacebook } from '~/components/icons/IconFacebook';
 import { IconGithub } from '~/components/icons/IconGithub';
+import { IconArrowDownRight } from '../icons/IconArrowDownRight';
 
 export default component$(() => {
   const links = [
     {
       title: 'Product',
       items: [
-        { title: 'Features', href: '#' },
-        { title: 'Security', href: '#' },
-        { title: 'Team', href: '#' },
-        { title: 'Enterprise', href: '#' },
-        { title: 'Customer stories', href: '#' },
-        { title: 'Pricing', href: '#' },
-        { title: 'Resources', href: '#' },
+        { title: 'Features', href: '/features' },
+        { title: 'Security', href: '/security' },
+        { title: 'Team', href: '/team' },
+        { title: 'Enterprise', href: '/enterprise' },
+        { title: 'Customer stories', href: '/stories' },
+        { title: 'Pricing', href: '/pricing' },
+        { title: 'Resources', href: '/resources' },
       ],
     },
     {
       title: 'Platform',
       items: [
-        { title: 'Developer API', href: '#' },
-        { title: 'Partners', href: '#' },
-        { title: 'Atom', href: '#' },
-        { title: 'Electron', href: '#' },
-        { title: 'Giz Desktop', href: '#' },
+        { title: 'Developer API', href: '/api' },
+        { title: 'Partners', href: '/partners' },
+        { title: 'Atom', href: '/atom' },
+        { title: 'Electron', href: '/electron' },
+        { title: 'Giz Desktop', href: '/desktop' },
       ],
     },
     {
       title: 'Support',
       items: [
-        { title: 'Docs', href: '#' },
-        { title: 'Community Forum', href: '#' },
-        { title: 'Professional Services', href: '#' },
-        { title: 'Skills', href: '#' },
-        { title: 'Status', href: '#' },
+        { title: 'Docs', href: '/docs' },
+        { title: 'Community Forum', href: '/forum' },
+        { title: 'Professional Services', href: '/professional' },
+        { title: 'Skills', href: '/skills' },
+        { title: 'Status', href: '/status' },
       ],
     },
     {
       title: 'Company',
       items: [
-        { title: 'About', href: '#' },
-        { title: 'Blog', href: '#' },
-        { title: 'Careers', href: '#' },
-        { title: 'Press', href: '#' },
-        { title: 'Inclusion', href: '#' },
-        { title: 'Social Impact', href: '#' },
-        { title: 'Shop', href: '#' },
+        { title: 'About', href: '/about' },
+        { title: 'Blog', href: '/blog' },
+        { title: 'Careers', href: '/careers' },
+        { title: 'Press', href: '/press' },
+        { title: 'Inclusion', href: '/inclusion' },
+        { title: 'Social Impact', href: '/impact' },
+        { title: 'Shop', href: '/social' },
       ],
     },
   ];
 
   const social = [
-    { label: 'Twitter', icon: IconTwitter, href: '#' },
-    { label: 'Instagram', icon: IconInstagram, href: '#' },
-    { label: 'Facebook', icon: IconFacebook, href: '#' },
-    {
-      label: 'Github',
-      icon: IconGithub,
-      href: 'https://github.com/onwidget/giz',
-    },
+    { label: 'Twitter', icon: IconTwitter, href: 'twitter.com/gizlang' },
+    { label: 'Instagram', icon: IconInstagram, href: 'instagram.com/gizlang' },
+    { label: 'Facebook', icon: IconFacebook, href: 'facebook.com/gizlang' },
+    { label: 'Linkedin', icon: IconArrowDownRight, href: 'linkedin.com/gizlang' },
+    { label: 'Patreom', icon: IconArrowDownRight, href: 'patreon.com/gizlang' },
+    { label: 'Medium', icon: IconArrowDownRight, href: 'medium.com/gizlang' },
+    { label: 'Github', icon: IconGithub, href: 'https://github.com/gizlang' },
+    { label: 'Stack Overflow', icon: IconArrowDownRight, href: 'stackoverflow.com/gizlang' },
+    { label: 'Reddit', icon: IconArrowDownRight, href: 'reddit.com/gizlang' },
+    { label: 'Slack', icon: IconArrowDownRight, href: 'slack.com/gizlang' },
+    { label: 'Telegram', icon: IconArrowDownRight, href: 'telegram.com/gizlang' },
+    { label: 'Youtube',  icon: IconArrowDownRight, href: 'youtube.com/gizlang' },
+    { label: 'Twitch', icon: IconArrowDownRight, href: 'twitch.com/gizlang' },
+    { label: 'Discord', icon: IconArrowDownRight, href: 'discord.com/gizlang' },
   ];
 
   return (
@@ -76,8 +83,7 @@ export default component$(() => {
               </Link>
             </div>
             <div class="text-sm text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi
-              risus tempus nulla
+              Programming should be easy to read
             </div>
           </div>
           {links.map(({ title, items }) => (
@@ -115,11 +121,11 @@ export default component$(() => {
           </ul>
 
           <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
-            <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
+            <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://gizlang.com/favicon/favicon-32x32.png)]"></span>
             Made by{' '}
-            <a class="text-secondary-700 hover:underline dark:text-gray-200" href="https://onwidget.com/">
+            <a class="text-secondary-700 hover:underline dark:text-gray-200" href="https://gizlang.com/">
               {' '}
-              onWidget
+              gizlang
             </a>{' '}
             · All rights reserved.
           </div>

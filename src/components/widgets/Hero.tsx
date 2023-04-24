@@ -31,7 +31,7 @@ export default component$(() => {
                   <div class="flex w-full sm:w-auto">
                     <a
                       class="btn btn-primary sm:mb-0 w-full"
-                      href="https://github.com/onwidget/giz"
+                      href="https://github.com/gizlang/giz"
                       target="_blank"
                       rel="noopener">
                       Get involved
