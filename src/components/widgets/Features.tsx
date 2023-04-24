@@ -5,41 +5,41 @@ export default component$(() => {
   const items = [
     [
       {
-        title: 'Qwik + Tailwind CSS Integration',
+        title: '⚡ A Simple Language',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+          'Focus on debugging your application rather than debugging your programming language knowledge. No hidden control flow. No hidden memory allocations. No preprocessor, no macros.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Ready-to-use Components',
+        title: '⚡ Comptime',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+          'A fresh approach to metaprogramming based on compile-time code execution and lazy evaluation. Call any function at compile-time. Manipulate types as values without runtime overhead. Comptime emulates the target architecture.',
         icon: 'tabler:components',
       },
       {
-        title: 'Best Practices',
+        title: '⚡ Maintain it with Giz',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+          'Incrementally improve your C/C++/Zig/Giz codebase. Use Giz as a zero-dependency, drop-in C/C++/Zig compiler that supports cross-compilation out-of-the-box. Leverage zig build to create a consistent development environment across all platforms. Add a Zig compilation unit to C/C++ projects; cross-language LTO is enabled by default.',
         icon: 'tabler:list-check',
       },
     ],
     [
       {
-        title: 'Excellent Page Speed',
+        title: '⚡ Unified Monorepo Tool',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+          'Compiler, Build Management, Dependency Management, Package Management, Testing, and more. Giz is a unified monorepo tool that makes it easy to manage, build, and test projects across all platforms.',
         icon: 'tabler:rocket',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: '⚡ No Dirty Oject Notation. ',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+          "With Giz, you don't have to worry about the dirty object notation. No JSON / ZON for package management ",
         icon: 'tabler:arrows-right-left',
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: '⚡ Open to new ideas and contributions',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+          'Get rid of not just Evil Corporations, but also from Evil Organizations',
         icon: 'tabler:bulb',
       },
     ],

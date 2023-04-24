@@ -16,11 +16,13 @@ export default component$(() => {
           <div class="pb-12 md:pb-0 md:py-0 mx-auto md:pr-16 flex items-center basis-3/5">
             <div>
               <h1 class="text-5xl md:text-[3.48rem] font-bold leading-tighter tracking-tighter mb-4 font-heading px-4 md:px-0">
-                Free template for <br class="hidden lg:block" />{' '}
+                Giz is a general-purpose programming language and toolchain for
+                maintaining robust, optimal and reusable software.r{' '}
+                <br class="hidden lg:block" />{' '}
                 <span class="hidden lg:inline">create a website using </span>{' '}
-                <span class="text-[#039de1]">Qwik</span> +{' '}
+                <span class="text-[#039de1]">No BS</span> +{' '}
                 <span class="sm:whitespace-nowrap text-[#039de1]">
-                  Tailwind CSS
+                  No NonSense
                 </span>
               </h1>
               <div class="max-w-3xl mx-auto">
@@ -28,14 +30,8 @@ export default component$(() => {
                   <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
                     Giz
                   </span>{' '}
-                  is a production ready template to start your new website using{' '}
-                  <em>Qwik</em> + <em>Tailwind CSS</em>. It has been designed
-                  following Best Practices, SEO, Accessibility,{' '}
-                  <span class="inline md:hidden">...</span>
-                  <span class="hidden md:inline">
-                    Dark Mode, Great Page Speed, image optimization, sitemap
-                    generation and more.
-                  </span>
+                  Based on the seminal talk by @MarkRendle at NDC Oslo 2021,
+                  available on <em>youtube</em>
                 </p>
                 <div class="max-w-xs sm:max-w-md flex flex-nowrap flex-col sm:flex-row gap-4 m-auto md:m-0 justify-center md:justify-start">
                   <div class="flex w-full sm:w-auto">
@@ -44,7 +40,7 @@ export default component$(() => {
                       href="https://github.com/onwidget/giz"
                       target="_blank"
                       rel="noopener">
-                      Get template
+                      Get involved
                     </a>
                   </div>
                   <div class="flex w-full sm:w-auto">
