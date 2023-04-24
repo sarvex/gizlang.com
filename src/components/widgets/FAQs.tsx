@@ -44,19 +44,19 @@ export default component$(() => {
       <div class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
         <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-            <p class="text-base text-primary-600 dark:text-purple-200 font-semibold tracking-wide uppercase">FAQs</p>
+            <h2 class="text-base text-primary-600 dark:text-purple-200 font-semibold tracking-wide uppercase">FAQs</h2>
             <iframe
-              width="1024"
-              height="576"
+              width="854"
+              height="480"
               src="https://www.youtube-nocookie.com/embed/vcFBwt1nu2U"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             />
-            <h2 class="max-w-lg mb-4 text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto font-heading">
+            <h4 class="max-w-lg mb-4 text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto font-heading">
               The Worst Programming Language Ever - Mark Rendle
-            </h2>
+            </h4>
           </div>
         </div>
         <div class="max-w-screen-xl sm:mx-auto">
