@@ -1,7 +1,7 @@
-import { component$, useStore, useTask$ } from "@builder.io/qwik";
+import { component$, useStore, useTask$ } from '@builder.io/qwik';
 
-import { IconSun } from "~/components/icons/IconSun";
-import { IconMoon } from "../icons/IconMoon";
+import { IconSun } from '~/components/icons/IconSun';
+import { IconMoon } from '../icons/IconMoon';
 
 interface ItemProps {
   iconClass?: string;
@@ -11,21 +11,21 @@ export default component$((props: ItemProps) => {
   const { iconClass } = props;
   const store = useStore({
     theme:
-      (typeof window !== "undefined" && window?.localStorage?.theme) ||
+      (typeof window !== 'undefined' && window?.localStorage?.theme) ||
       undefined,
   });
 
   useTask$(() => {
-    if  (!(typeof window !== "undefined" && window?.localStorage)) {
+    if (!(typeof window !== 'undefined' && window?.localStorage)) {
       return;
     }
-  
+
     store.theme =
-      window.localStorage.theme === "dark" ||
-      (!("theme" in window.localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-        ? "dark"
-        : "light";
+      window.localStorage.theme === 'dark' ||
+      (!('theme' in window.localStorage) &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ? 'dark'
+        : 'light';
   });
 
   return (
@@ -35,18 +35,17 @@ export default component$((props: ItemProps) => {
       aria-label="Toggle between Dark and Light mode"
       onClick$={() => {
         switch (store.theme) {
-          case "dark":
-            document.documentElement.classList.remove("dark");
-            store.theme = window.localStorage.theme = "light";
+          case 'dark':
+            document.documentElement.classList.remove('dark');
+            store.theme = window.localStorage.theme = 'light';
             break;
           default:
-            document.documentElement.classList.add("dark");
-            store.theme = window.localStorage.theme = "dark";
+            document.documentElement.classList.add('dark');
+            store.theme = window.localStorage.theme = 'dark';
             break;
         }
-      }}
-    >
-      {store.theme == "dark" ? (
+      }}>
+      {store.theme == 'dark' ? (
         <IconMoon class={iconClass} />
       ) : (
         <IconSun class={iconClass} />

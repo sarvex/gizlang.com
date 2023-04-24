@@ -1,10 +1,10 @@
-import { component$, useStore, useTask$ } from "@builder.io/qwik";
-import { isServer } from "@builder.io/qwik/build";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import { component$, useStore, useTask$ } from '@builder.io/qwik';
+import { isServer } from '@builder.io/qwik/build';
+import type { DocumentHead } from '@builder.io/qwik-city';
 
-import type { Post } from "~/types";
-import { fetchPosts } from "~/utils/posts";
-import { SITE } from "~/config.mjs";
+import type { Post } from '~/types';
+import { fetchPosts } from '~/utils/posts';
+import { SITE } from '~/config.mjs';
 
 export default component$(() => {
   const store = useStore<{ posts: Post[] }>({
@@ -28,7 +28,10 @@ export default component$(() => {
       <ul>
         {store.posts.map((post: any) => (
           <li key={post.slug} class="mb-10 md:mb-16">
-            <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.image ? "md:grid-cols-2" : ""}`}>
+            <article
+              class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${
+                post.image ? 'md:grid-cols-2' : ''
+              }`}>
               {post.image && (
                 <a class="relative block group" href={`/blog/${post.slug}`}>
                   <div class="relative h-0 pb-[56.25%] md:pb-[75%] md:h-80 lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg">
@@ -48,22 +51,23 @@ export default component$(() => {
                   <h2 class="text-xl sm:text-2xl font-bold leading-snug mb-2 font-heading">
                     <a
                       class="hover:text-primary-600 underline underline-offset-4 decoration-1 decoration-dotted transition ease-in duration-200"
-                      href={`/blog/${post.slug}`}
-                    >
+                      href={`/blog/${post.slug}`}>
                       {post.title}
                     </a>
                   </h2>
                 </header>
-                <p class="text-md sm:text-lg flex-grow">{post.excerpt || post.description}</p>
+                <p class="text-md sm:text-lg flex-grow">
+                  {post.excerpt || post.description}
+                </p>
                 <footer class="mt-4">
                   <div>
                     <span class="text-gray-500 dark:text-slate-400">
                       <time dateTime={String(post.publishDate.getTime())}>
-                        {post.publishDate.toLocaleDateString("en-us", {
-                          year: "numeric",
-                          month: "short",
-                          day: "numeric",
-                          timeZone: "UTC",
+                        {post.publishDate.toLocaleDateString('en-us', {
+                          year: 'numeric',
+                          month: 'short',
+                          day: 'numeric',
+                          timeZone: 'UTC',
                         })}
                       </time>
                       {/* ~{' '}{Math.ceil(post.readingTime)} min read */}
@@ -81,10 +85,10 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Blog — Qwind",
+  title: 'Blog — Giz',
   meta: [
     {
-      name: "description",
+      name: 'description',
       content: SITE.description,
     },
   ],

@@ -10,9 +10,9 @@
  * - npm run build
  *
  */
-import { renderToStream, RenderToStreamOptions } from "@builder.io/qwik/server";
-import { manifest } from "@qwik-client-manifest";
-import Root from "./root";
+import { renderToStream, RenderToStreamOptions } from '@builder.io/qwik/server';
+import { manifest } from '@qwik-client-manifest';
+import Root from './root';
 
 export default function (opts: RenderToStreamOptions) {
   return renderToStream(<Root />, {
@@ -20,9 +20,9 @@ export default function (opts: RenderToStreamOptions) {
     ...opts,
     // Use container attributes to set attributes on the html tag.
     containerAttributes: {
-      lang: "en",
-      dir: "ltr",
-      class: "motion-safe:scroll-smooth 2xl:text-[20px]",
+      lang: 'en',
+      dir: 'ltr',
+      class: 'motion-safe:scroll-smooth 2xl:text-[20px]',
       ...opts.containerAttributes,
     },
   });

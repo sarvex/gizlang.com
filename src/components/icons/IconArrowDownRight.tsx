@@ -8,7 +8,7 @@ export const IconArrowDownRight = (props: ItemProps) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class={`icon icon-tabler icon-tabler-arrow-down-right ${
-        className || "w-5 h-5"
+        className || 'w-5 h-5'
       }`}
       width="24"
       height="24"
@@ -17,8 +17,7 @@ export const IconArrowDownRight = (props: ItemProps) => {
       stroke="currentColor"
       fill="none"
       stroke-linecap="round"
-      stroke-linejoin="round"
-    >
+      stroke-linejoin="round">
       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
       <line x1="7" y1="7" x2="17" y2="17"></line>
       <polyline points="17 8 17 17 8 17"></polyline>

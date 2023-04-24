@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import { component$ } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
 
 export default component$(() => {
   return (
@@ -10,7 +10,9 @@ export default component$(() => {
             <span class="sr-only">Error</span>
             <span>404</span>
           </h2>
-          <p class="text-3xl font-medium md:text-3xl">Sorry, we couldn't find this page.</p>
+          <p class="text-3xl font-medium md:text-3xl">
+            Sorry, we couldn't find this page.
+          </p>
           <p class="mt-4 mb-8 text-lg text-muted">
             But dont worry, you can find plenty of other things on our homepage.
           </p>
@@ -24,5 +26,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Error 404",
+  title: 'Error 404',
 };

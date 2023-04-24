@@ -1,17 +1,17 @@
-import { component$ } from "@builder.io/qwik";
-import { IconArrowDownRight } from "../icons/IconArrowDownRight";
+import { component$ } from '@builder.io/qwik';
+import { IconArrowDownRight } from '../icons/IconArrowDownRight';
 
 export default component$(() => {
   const items = [
     [
       {
-        question: "What do I need to start?",
+        question: 'What do I need to start?',
         answer: `Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds.
 
     Many say exploration is part of our destiny, but it’s actually our duty to future generations.`,
       },
       {
-        question: "How to install the Qwik + Tailwind CSS template?",
+        question: 'How to install the Qwik + Tailwind CSS template?',
         answer: `Well, the way they make shows is, they make one show. That show's called a pilot.
 
     Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.`,
@@ -27,14 +27,14 @@ export default component$(() => {
         answer: `Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.`,
       },
       {
-        question: "What is something that you would really like to try again?",
+        question: 'What is something that you would really like to try again?',
         answer: `A business big enough that it could be listed on the NASDAQ goes belly up. Disappears!
 
       It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.`,
       },
       {
         question:
-          "If you could only ask one question to each person you meet, what would that question be?",
+          'If you could only ask one question to each person you meet, what would that question be?',
         answer: `This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.`,
       },
     ],
@@ -63,7 +63,7 @@ export default component$(() => {
                       <IconArrowDownRight class="w-7 h-7 text-secondary-500 inline-block" />
                       {question}
                     </h3>
-                    {answer.split("\n\n").map((paragraph) => (
+                    {answer.split('\n\n').map((paragraph) => (
                       <p class="text-gray-700 dark:text-gray-400 mb-2">
                         {paragraph}
                       </p>

@@ -1,6 +1,6 @@
-# 💠 Qwind
+# 💠 Giz
 
-**Qwind** is a free and open-source template to make your website using **[Qwik](https://qwik.builder.io/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account best practices.
+**Giz** is a free and open-source template to make your website using **[Qwik](https://qwik.builder.io/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account best practices.
 
 ## Features
 
@@ -10,13 +10,13 @@
 
 <br>
 
-<img src="./screenshot.jpg" alt="Qwind Theme Screenshot">
+<img src="./screenshot.jpg" alt="Giz Theme Screenshot">
 
 [![onWidget](https://custom-icon-badges.demolab.com/badge/made%20by%20-onWidget-556bf2?style=flat-square&logo=onwidget&logoColor=white&labelColor=101827)](https://onwidget.com)
-[![License](https://img.shields.io/github/license/onwidget/qwind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/qwind/blob/main/LICENSE.md)
+[![License](https://img.shields.io/github/license/onwidget/giz?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/giz/blob/main/LICENSE.md)
 [![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/onwidget)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/onwidget/qwind#contributing)
-[![Known Vulnerabilities](https://snyk.io/test/github/onwidget/qwind/badge.svg?style=flat-square)](https://snyk.io/test/github/onwidget/qwind)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/onwidget/giz#contributing)
+[![Known Vulnerabilities](https://snyk.io/test/github/onwidget/giz/badge.svg?style=flat-square)](https://snyk.io/test/github/onwidget/giz)
 
 <br>
 
@@ -40,7 +40,7 @@
 
 ## Demo
 
-📌 [https://qwind.pages.dev/](https://qwind.pages.dev/)
+📌 [https://giz.pages.dev/](https://giz.pages.dev/)
 
 <br>
 
@@ -50,7 +50,7 @@ This project is using Qwik with [QwikCity](https://qwik.builder.io/qwikcity/over
 
 ### Project structure
 
-Inside **Qwind** template, you'll see the following folders and files:
+Inside **Giz** template, you'll see the following folders and files:
 
 ```
 /
@@ -99,7 +99,7 @@ Inside **Qwind** template, you'll see the following folders and files:
 
 - `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
 
-[![Edit Qwind on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/onwidget/qwind/tree/main)
+[![Edit Giz on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/onwidget/giz/tree/main)
 
 > **Seasoned qwik expert?** Delete this file. Update `config.mjs` and contents. Have fun!
 
@@ -127,10 +127,10 @@ Basic configuration file: `./src/config.mjs`
 
 ```javascript
 export const SITE = {
-  name: "Example",
+  name: 'Example',
 
-  origin: "https://example.com",
-  basePathname: "/", // Change this if you need to deploy to Github Pages, for example
+  origin: 'https://example.com',
+  basePathname: '/', // Change this if you need to deploy to Github Pages, for example
   trailingSlash: true, // Generate permalinks with or without "/" at the end
 };
 ```
@@ -155,13 +155,13 @@ prefer.
 
 Clone this repository on own GitHub account and deploy to Netlify:
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/qwind)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/giz)
 
 #### Deploy to Vercel
 
 Clone this repository on own GitHub account and deploy to Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonwidget%2Fqwind)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonwidget%2Fgiz)
 
 <br>
 
@@ -192,8 +192,8 @@ That would be very useful for all of us and we would be happy to listen and take
 
 ## Acknowledgements
 
-Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/qwind/graphs/contributors).
+Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/giz/graphs/contributors).
 
 ## License
 
-**Qwind** is licensed under the MIT license — see the [LICENSE](https://github.com/onwidget/qwind/blob/main/LICENSE.md) file for details.
+**Giz** is licensed under the MIT license — see the [LICENSE](https://github.com/onwidget/giz/blob/main/LICENSE.md) file for details.

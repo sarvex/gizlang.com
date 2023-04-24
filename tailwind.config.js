@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require("tailwindcss/defaultTheme");
-const colors = require("tailwindcss/colors");
+const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
       colors: {
@@ -16,6 +16,6 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
-  darkMode: "class",
+  plugins: [require('@tailwindcss/typography')],
+  darkMode: 'class',
 };

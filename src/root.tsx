@@ -1,14 +1,14 @@
-import { component$, useStyles$ } from "@builder.io/qwik";
+import { component$, useStyles$ } from '@builder.io/qwik';
 import {
   QwikCityProvider,
   RouterOutlet,
   ServiceWorkerRegister,
-} from "@builder.io/qwik-city";
+} from '@builder.io/qwik-city';
 
-import { RouterHead } from "~/components/core/RouterHead";
-import { DarkThemeLauncher } from "~/components/core/DarkThemeLauncher";
+import { RouterHead } from '~/components/core/RouterHead';
+import { DarkThemeLauncher } from '~/components/core/DarkThemeLauncher';
 
-import globalStyles from "~/assets/styles/global.css?inline";
+import globalStyles from '~/assets/styles/global.css?inline';
 
 export default component$(() => {
   /**

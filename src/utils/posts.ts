@@ -1,20 +1,20 @@
-import fs from "fs";
-import matter from "gray-matter";
+import fs from 'fs';
+import matter from 'gray-matter';
 
-import type { Post } from "~/types";
+import type { Post } from '~/types';
 
-const BLOG_DIR = "src/content/blog";
+const BLOG_DIR = 'src/content/blog';
 
 const load = () => {
   const files = fs.readdirSync(BLOG_DIR);
 
   const posts = Promise.all(
     files
-      .filter((filename) => filename.endsWith(".md"))
+      .filter((filename) => filename.endsWith('.md'))
       .map(async (filename) => {
-        const slug = filename.replace(".md", "");
+        const slug = filename.replace('.md', '');
         return await findPostBySlug(slug);
-      })
+      }),
     // .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
   );
 
@@ -45,12 +45,17 @@ export const fetchPosts = async (): Promise<Post[]> => {
 };
 
 /** */
-export const findLatestPosts = async ({ count, page }: { count?: number; page?: number } = {}): Promise<Post[]> => {
+export const findLatestPosts = async ({
+  count,
+  page,
+}: { count?: number; page?: number } = {}): Promise<Post[]> => {
   const _count = count || 4;
   const _page = page || 1;
   const posts = await fetchPosts();
 
-  return posts ? posts.slice((_page - 1) * _count, (_page - 1) * _count + _count) : [];
+  return posts
+    ? posts.slice((_page - 1) * _count, (_page - 1) * _count + _count)
+    : [];
 };
 
 /** */
@@ -58,7 +63,7 @@ export const findPostBySlug = async (slug: string): Promise<Post | null> => {
   if (!slug) return null;
 
   try {
-    const readFile = fs.readFileSync(BLOG_DIR + `/${slug}.md`, "utf-8");
+    const readFile = fs.readFileSync(BLOG_DIR + `/${slug}.md`, 'utf-8');
     const { data, content } = matter(readFile);
 
     const {
@@ -96,7 +101,7 @@ export const findPostBySlug = async (slug: string): Promise<Post | null> => {
 
       metadata,
 
-      content
+      content,
     };
   } catch (e) {
     /* empty */
