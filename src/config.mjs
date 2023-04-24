@@ -2,11 +2,11 @@ export const SITE = {
   name: 'Giz',
 
   title:
-    'Giz — Free template for Qwik + Tailwind CSS to build your new website.',
+    'Giz — giz is a no-bs, no-nonsense, general-purpose programming language and toolchain for maintaining robust, optimal and reusable software',
   description:
-    'Giz is a free and ready to start template to make your website using Qwik and Tailwind CSS.',
+    'Based on the seminal talk by @MarkRendle at NDC Oslo 2021, available on youtube.',
 
-  origin: 'https://giz.pages.dev',
+  origin: 'https://gizlang.com',
   basePathname: '/',
   trailingSlash: true,
 };
