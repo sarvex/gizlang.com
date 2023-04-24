@@ -45,15 +45,17 @@ export default component$(() => {
         <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <p class="text-base text-primary-600 dark:text-purple-200 font-semibold tracking-wide uppercase">FAQs</p>
+            <iframe
+              width="1024"
+              height="576"
+              src="https://www.youtube-nocookie.com/embed/vcFBwt1nu2U"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
             <h2 class="max-w-lg mb-4 text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto font-heading">
-              <iframe
-                width="1280"
-                height="720"
-                src="https://www.youtube-nocookie.com/embed/vcFBwt1nu2U"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen />
+              The Worst Programming Language Ever - Mark Rendle
             </h2>
           </div>
         </div>
