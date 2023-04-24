@@ -33,8 +33,7 @@ export default component$(() => {
       It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.`,
       },
       {
-        question:
-          'If you could only ask one question to each person you meet, what would that question be?',
+        question: 'If you could only ask one question to each person you meet, what would that question be?',
         answer: `This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.`,
       },
     ],
@@ -45,9 +44,7 @@ export default component$(() => {
       <div class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
         <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-            <p class="text-base text-primary-600 dark:text-purple-200 font-semibold tracking-wide uppercase">
-              FAQs
-            </p>
+            <p class="text-base text-primary-600 dark:text-purple-200 font-semibold tracking-wide uppercase">FAQs</p>
             <h2 class="max-w-lg mb-4 text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto font-heading">
               Frequently Asked Questions
             </h2>
@@ -64,9 +61,7 @@ export default component$(() => {
                       {question}
                     </h3>
                     {answer.split('\n\n').map((paragraph) => (
-                      <p class="text-gray-700 dark:text-gray-400 mb-2">
-                        {paragraph}
-                      </p>
+                      <p class="text-gray-700 dark:text-gray-400 mb-2">{paragraph}</p>
                     ))}
                   </div>
                 ))}

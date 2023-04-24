@@ -45,17 +45,12 @@ export const fetchPosts = async (): Promise<Post[]> => {
 };
 
 /** */
-export const findLatestPosts = async ({
-  count,
-  page,
-}: { count?: number; page?: number } = {}): Promise<Post[]> => {
+export const findLatestPosts = async ({ count, page }: { count?: number; page?: number } = {}): Promise<Post[]> => {
   const _count = count || 4;
   const _page = page || 1;
   const posts = await fetchPosts();
 
-  return posts
-    ? posts.slice((_page - 1) * _count, (_page - 1) * _count + _count)
-    : [];
+  return posts ? posts.slice((_page - 1) * _count, (_page - 1) * _count + _count) : [];
 };
 
 /** */

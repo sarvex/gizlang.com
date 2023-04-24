@@ -10,9 +10,7 @@ interface ItemProps {
 export default component$((props: ItemProps) => {
   const { iconClass } = props;
   const store = useStore({
-    theme:
-      (typeof window !== 'undefined' && window?.localStorage?.theme) ||
-      undefined,
+    theme: (typeof window !== 'undefined' && window?.localStorage?.theme) || undefined,
   });
 
   useTask$(() => {
@@ -22,8 +20,7 @@ export default component$((props: ItemProps) => {
 
     store.theme =
       window.localStorage.theme === 'dark' ||
-      (!('theme' in window.localStorage) &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches)
+      (!('theme' in window.localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
         ? 'dark'
         : 'light';
   });
@@ -45,11 +42,7 @@ export default component$((props: ItemProps) => {
             break;
         }
       }}>
-      {store.theme == 'dark' ? (
-        <IconMoon class={iconClass} />
-      ) : (
-        <IconSun class={iconClass} />
-      )}
+      {store.theme == 'dark' ? <IconMoon class={iconClass} /> : <IconSun class={iconClass} />}
     </button>
   );
 });

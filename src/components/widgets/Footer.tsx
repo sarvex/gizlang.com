@@ -76,15 +76,13 @@ export default component$(() => {
               </Link>
             </div>
             <div class="text-sm text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              sagittis, quam nec venenatis lobortis, mi risus tempus nulla
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi
+              risus tempus nulla
             </div>
           </div>
           {links.map(({ title, items }) => (
             <div class="col-span-6 md:col-span-3 lg:col-span-2">
-              <div class="text-gray-800 dark:text-gray-300 font-medium mb-2">
-                {title}
-              </div>
+              <div class="text-gray-800 dark:text-gray-300 font-medium mb-2">{title}</div>
               {items && Array.isArray(items) && items.length > 0 && (
                 <ul class="text-sm">
                   {items.map(({ title, href }) => (
@@ -119,9 +117,7 @@ export default component$(() => {
           <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
             <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
             Made by{' '}
-            <a
-              class="text-secondary-700 hover:underline dark:text-gray-200"
-              href="https://onwidget.com/">
+            <a class="text-secondary-700 hover:underline dark:text-gray-200" href="https://onwidget.com/">
               {' '}
               onWidget
             </a>{' '}

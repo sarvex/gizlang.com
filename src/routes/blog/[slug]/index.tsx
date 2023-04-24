@@ -1,27 +1,22 @@
 import { component$, Resource } from '@builder.io/qwik';
 import { routeLoader$ } from '@builder.io/qwik-city';
 
-import type {
-  DocumentHead,
-  StaticGenerateHandler,
-} from '@builder.io/qwik-city';
+import type { DocumentHead, StaticGenerateHandler } from '@builder.io/qwik-city';
 import type { Post } from '~/types';
 
 import md from 'markdown-it';
 
 import { fetchPosts, findPostBySlug } from '~/utils/posts';
 
-export const useGetPostBySlug = routeLoader$(
-  async ({ params, status }): Promise<Post> => {
-    const post = await findPostBySlug(params.slug);
+export const useGetPostBySlug = routeLoader$(async ({ params, status }): Promise<Post> => {
+  const post = await findPostBySlug(params.slug);
 
-    if (!post) {
-      status(404);
-    }
+  if (!post) {
+    status(404);
+  }
 
-    return post as Post;
-  },
-);
+  return post as Post;
+});
 
 export default component$(() => {
   const data = useGetPostBySlug();

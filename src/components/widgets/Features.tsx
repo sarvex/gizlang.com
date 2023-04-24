@@ -38,17 +38,15 @@ export default component$(() => {
       },
       {
         title: '⚡ Open to new ideas and contributions',
-        description:
-          'Get rid of not just Evil Corporations, but also from Evil Organizations',
+        description: 'Get rid of not just Evil Corporations, but also from Evil Organizations',
         icon: 'tabler:bulb',
       },
-            {
+      {
         title: '⚡ No Excuses - compiler does the heavy lifting, not the programmer',
         description:
           'The reason of existence of compiler and build system is to make the code more reliable and maintainable,  and to make the code more terse',
         icon: 'tabler:bulb',
       },
-    ],
     ],
   ];
 
@@ -56,15 +54,13 @@ export default component$(() => {
     <section class="scroll-mt-16" id="features">
       <div class="px-4 py-16 mx-auto max-w-6xl lg:px-8 lg:py-20">
         <div class="mb-10 md:mx-auto sm:text-center md:mb-12 max-w-3xl">
-          <p class="text-base text-primary-600 dark:text-purple-200 font-semibold tracking-wide uppercase">
-            Features
-          </p>
+          <p class="text-base text-primary-600 dark:text-purple-200 font-semibold tracking-wide uppercase">Features</p>
           <h2 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
             What you get with <span class="whitespace-nowrap">Giz</span>
           </h2>
           <p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            Absolute Freedom from mundane tasks and the complexity of the programming language. Giz aims at 0 as in
+            absolute ZERO signal-to-noise-ratio (SNR)
           </p>
         </div>
         <div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
@@ -79,9 +75,7 @@ export default component$(() => {
                   </div>
                   <div>
                     <h3 class="mb-3 text-xl font-bold">{title}</h3>
-                    <p class="text-gray-600 dark:text-slate-400">
-                      {description}
-                    </p>
+                    <p class="text-gray-600 dark:text-slate-400">{description}</p>
                   </div>
                 </div>
               ))}
