@@ -10,8 +10,8 @@ devDependencies:
     specifier: 0.103.0
     version: 0.103.0(undici@5.22.0)
   '@builder.io/qwik-city':
-    specifier: 0.103.0
-    version: 0.103.0(@builder.io/qwik@0.103.0)
+    specifier: 0.104.0
+    version: 0.104.0(@builder.io/qwik@0.103.0)
   '@divriots/jampack':
     specifier: ^0.9.4
     version: 0.9.4
@@ -112,8 +112,8 @@ packages:
       regenerator-runtime: 0.13.11
     dev: true
 
-  /@builder.io/qwik-city@0.103.0(@builder.io/qwik@0.103.0):
-    resolution: {integrity: sha512-lryB9UrUR+/uOdYqXBIpBmInbK+rDRTzkRdfterNgZlBKR+enWnL4C/C50p4w1zjtl3RRx64hedf6dyn0setmg==}
+  /@builder.io/qwik-city@0.104.0(@builder.io/qwik@0.103.0):
+    resolution: {integrity: sha512-5I3+c1KwmYZf+cAqvdjpydypMqpe6Gd68OCUr969F0bZOGSdZ5iCGKAgWyk2BXiaUdkMawPlTHbsNAzg62pDoA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       '@builder.io/qwik': '>=0.22.0'
