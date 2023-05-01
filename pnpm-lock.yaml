@@ -7,8 +7,8 @@ dependencies:
 
 devDependencies:
   '@builder.io/qwik':
-    specifier: 0.105.0
-    version: 0.105.0(undici@5.22.0)
+    specifier: 0.107.0
+    version: 0.107.0(undici@5.22.0)
   '@builder.io/qwik-city':
     specifier: 0.105.0
     version: 0.105.0
@@ -125,8 +125,8 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik@0.105.0(undici@5.22.0):
-    resolution: {integrity: sha512-Lqnvl30BZBcPXAeKMedqmzaHs26ruHp+omcXWexSbQPdT5wev14SGBvn0QgqaGcIi5L0tacUMBv0k9lpsB/T2w==}
+  /@builder.io/qwik@0.107.0(undici@5.22.0):
+    resolution: {integrity: sha512-YcLvM4sW69rKbK+tcOm60+rvbH7j/b3x2m3+dhGQOgyGMWw8WqoCAmr5clF5xONM0pCaOkrh6I3SncRedXFBYw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
