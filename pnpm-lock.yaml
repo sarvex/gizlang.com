@@ -76,8 +76,8 @@ devDependencies:
     specifier: 4.3.4
     version: 4.3.4(@types/node@18.16.3)
   vite-imagetools:
-    specifier: ^4.0.19
-    version: 4.0.19
+    specifier: ^5.0.0
+    version: 5.0.0
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0(typescript@5.0.4)(vite@4.3.4)
@@ -2978,6 +2978,13 @@ packages:
       sharp: 0.31.3
     dev: true
 
+  /imagetools-core@4.0.0:
+    resolution: {integrity: sha512-roN8/ybCvNrx2GJG9+WFxqvjNVFYTUrWJ5gzL78iC6/jLBuJTkie4eBrYtoo5ohthak+W3N8+/ebDqKhEpAEPQ==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      sharp: 0.32.1
+    dev: true
+
   /import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
@@ -4161,6 +4168,10 @@ packages:
     resolution: {integrity: sha512-eh0GgfEkpnoWDq+VY8OyvYhFEzBk6jIYbRKdIlyTiAXIVJ8PyBaKb0rp7oDtoddbdoHWhq8wwr+XZ81F1rpNdA==}
     dev: true
 
+  /node-addon-api@6.1.0:
+    resolution: {integrity: sha512-+eawOlIgy680F0kBzPUNFhMZGtJ1YmqM6l4+Crf4IkImjYrO/mqPwRMh352g23uIaQKFItcQ64I7KMaJxHgAVA==}
+    dev: true
+
   /node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
@@ -5258,6 +5269,21 @@ packages:
       tunnel-agent: 0.6.0
     dev: true
 
+  /sharp@0.32.1:
+    resolution: {integrity: sha512-kQTFtj7ldpUqSe8kDxoGLZc1rnMFU0AO2pqbX6pLy3b7Oj8ivJIdoKNwxHVQG2HN6XpHPJqCSM2nsma2gOXvOg==}
+    engines: {node: '>=14.15.0'}
+    requiresBuild: true
+    dependencies:
+      color: 4.2.3
+      detect-libc: 2.0.1
+      node-addon-api: 6.1.0
+      prebuild-install: 7.1.1
+      semver: 7.5.0
+      simple-get: 4.0.1
+      tar-fs: 2.1.1
+      tunnel-agent: 0.6.0
+    dev: true
+
   /shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
     engines: {node: '>=8'}
@@ -6087,12 +6113,12 @@ packages:
       vfile-message: 3.1.4
     dev: true
 
-  /vite-imagetools@4.0.19:
-    resolution: {integrity: sha512-vZaPsjLDgEqZrbj+ZsniRKthmoj4mvVrMOK/FZhRAbrVB4LOsil0BO2Gcq20e/JRlom4DzqtLw1UQUkfcqgCrA==}
+  /vite-imagetools@5.0.0:
+    resolution: {integrity: sha512-lQupylFhJx4fdDSJLzoIqb/kUM8zC2rOrvqmWAy4Jq82znzKGKVlx4riDElkPWsnNx8EvZordYBKpd9Bkzia/w==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@rollup/pluginutils': 5.0.2
-      imagetools-core: 3.3.1
+      imagetools-core: 4.0.0
     transitivePeerDependencies:
       - rollup
     dev: true
