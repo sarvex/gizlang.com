@@ -36,7 +36,7 @@
     "eslint": "8.39.0",
     "eslint-plugin-qwik": "1.0.0",
     "gray-matter": "^4.0.3",
-    "imagetools-core": "^3.3.1",
+    "imagetools-core": "^4.0.0",
     "markdown-it": "^13.0.1",
     "node-fetch": "3.3.1",
     "postcss": "^8.4.23",
