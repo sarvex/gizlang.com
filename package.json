@@ -24,34 +24,34 @@
   "devDependencies": {
     "@builder.io/qwik": "1.1.1",
     "@builder.io/qwik-city": "1.1.1",
-    "@divriots/jampack": "^0.10.0",
-    "@fontsource/inter": "^4.5.15",
-    "@tailwindcss/typography": "^0.5.9",
+    "@divriots/jampack": "0.10.0",
+    "@fontsource/inter": "4.5.15",
+    "@tailwindcss/typography": "0.5.9",
     "@types/eslint": "8.37.0",
-    "@types/markdown-it": "^12.2.3",
+    "@types/markdown-it": "12.2.3",
     "@types/node": "18.16.8",
     "@typescript-eslint/eslint-plugin": "5.59.5",
     "@typescript-eslint/parser": "5.59.5",
     "autoprefixer": "10.4.14",
     "eslint": "8.40.0",
     "eslint-plugin-qwik": "1.1.1",
-    "gray-matter": "^4.0.3",
-    "imagetools-core": "^4.0.2",
-    "markdown-it": "^13.0.1",
+    "gray-matter": "4.0.3",
+    "imagetools-core": "4.0.2",
+    "markdown-it": "13.0.1",
     "node-fetch": "3.3.1",
-    "postcss": "^8.4.23",
+    "postcss": "8.4.23",
     "prettier": "2.8.8",
-    "subfont": "^7.1.1",
-    "tailwindcss": "^3.3.2",
+    "subfont": "7.1.1",
+    "tailwindcss": "3.3.2",
     "typescript": "5.0.4",
     "vite": "4.3.5",
-    "vite-imagetools": "^5.0.3",
+    "vite-imagetools": "5.0.3",
     "vite-tsconfig-paths": "4.2.0"
   },
   "engines": {
     "node": ">=18.16.0"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.0.1"
+    "@vercel/analytics": "1.0.1"
   }
 }
