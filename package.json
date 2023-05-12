@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@builder.io/qwik": "1.1.0",
-    "@builder.io/qwik-city": "1.1.0",
+    "@builder.io/qwik-city": "1.1.1",
     "@divriots/jampack": "^0.10.0",
     "@fontsource/inter": "^4.5.15",
     "@tailwindcss/typography": "^0.5.9",
