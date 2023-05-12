@@ -10,8 +10,8 @@ devDependencies:
     specifier: 1.1.1
     version: 1.1.1(undici@5.22.0)
   '@builder.io/qwik-city':
-    specifier: 1.1.0
-    version: 1.1.0
+    specifier: 1.1.1
+    version: 1.1.1
   '@divriots/jampack':
     specifier: ^0.10.0
     version: 0.10.0
@@ -28,8 +28,8 @@ devDependencies:
     specifier: ^12.2.3
     version: 12.2.3
   '@types/node':
-    specifier: 18.16.7
-    version: 18.16.7
+    specifier: 18.16.8
+    version: 18.16.8
   '@typescript-eslint/eslint-plugin':
     specifier: 5.59.5
     version: 5.59.5(@typescript-eslint/parser@5.59.5)(eslint@8.40.0)(typescript@5.0.4)
@@ -74,7 +74,7 @@ devDependencies:
     version: 5.0.4
   vite:
     specifier: 4.3.5
-    version: 4.3.5(@types/node@18.16.7)
+    version: 4.3.5(@types/node@18.16.8)
   vite-imagetools:
     specifier: ^5.0.3
     version: 5.0.3
@@ -117,8 +117,8 @@ packages:
       regenerator-runtime: 0.13.11
     dev: true
 
-  /@builder.io/qwik-city@1.1.0:
-    resolution: {integrity: sha512-1j7ofLpqJxVo1Ao+NsVUdE6IE1U2qLOGhlhzxtnZCmZsK5Oll/2rGyfOgkxxTYk0xlDay8SHkJGpF+pAdDByRg==}
+  /@builder.io/qwik-city@1.1.1:
+    resolution: {integrity: sha512-zF+hCFuugnYAWMG3UGBXo02AZiMpZsTnohCifLM+f0508YHEhWC0QzO2Y1LcyFxo8JVM89uzWNobJMrcF7G3jw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
@@ -747,7 +747,7 @@ packages:
   /@types/cheerio@0.22.31:
     resolution: {integrity: sha512-Kt7Cdjjdi2XWSfrZ53v4Of0wG3ZcmaegFXjMmz9tfNrZSkzzo36G0AL1YqSdcIA78Etjt6E609pt5h1xnQkPUw==}
     dependencies:
-      '@types/node': 18.16.7
+      '@types/node': 18.16.8
     dev: true
 
   /@types/css-tree@2.3.1:
@@ -826,8 +826,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node@18.16.7:
-    resolution: {integrity: sha512-MFg7ua/bRtnA1hYE3pVyWxGd/r7aMqjNOdHvlSsXV3n8iaeGKkOaPzpJh6/ovf4bEXWcojkeMJpTsq3mzXW4IQ==}
+  /@types/node@18.16.8:
+    resolution: {integrity: sha512-p0iAXcfWCOTCBbsExHIDFCfwsqFwBTgETJveKMT+Ci3LY9YqQCI91F5S+TB20+aRCXpcWfvx5Qr5EccnwCm2NA==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -860,7 +860,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 18.16.7
+      '@types/node': 18.16.8
     dev: true
     optional: true
 
@@ -6145,13 +6145,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.0.4)
-      vite: 4.3.5(@types/node@18.16.7)
+      vite: 4.3.5(@types/node@18.16.8)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@4.3.5(@types/node@18.16.7):
+  /vite@4.3.5(@types/node@18.16.8):
     resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6176,7 +6176,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.16.7
+      '@types/node': 18.16.8
       esbuild: 0.17.18
       postcss: 8.4.23
       rollup: 3.21.5
