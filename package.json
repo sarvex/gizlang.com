@@ -25,7 +25,7 @@
     "@builder.io/qwik": "1.1.4",
     "@builder.io/qwik-city": "1.1.4",
     "@divriots/jampack": "0.11.4",
-    "@fontsource/inter": "4.5.15",
+    "@fontsource/inter": "5.0.0",
     "@tailwindcss/typography": "0.5.9",
     "@types/eslint": "8.37.0",
     "@types/markdown-it": "12.2.3",
