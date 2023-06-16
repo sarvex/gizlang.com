@@ -33,7 +33,7 @@
     "@typescript-eslint/eslint-plugin": "5.59.11",
     "@typescript-eslint/parser": "5.59.11",
     "autoprefixer": "10.4.14",
-    "eslint": "8.42.0",
+    "eslint": "8.43.0",
     "eslint-plugin-qwik": "1.1.5",
     "gray-matter": "4.0.3",
     "imagetools-core": "4.0.3",
