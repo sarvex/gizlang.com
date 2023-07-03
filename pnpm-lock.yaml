@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   '@builder.io/qwik':
-    specifier: 1.1.5
-    version: 1.1.5(undici@5.22.1)
+    specifier: 1.2.3
+    version: 1.2.3(undici@5.22.1)
   '@builder.io/qwik-city':
     specifier: 1.2.2
     version: 1.2.2
@@ -142,13 +142,14 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik@1.1.5(undici@5.22.1):
-    resolution: {integrity: sha512-/CZzZaUPctUBHNjchJRXV+JC28HZtv4JteCKnpqjp8YcvzHNuB3A0FpIGEzEWD/F/pg+4YunvxrBSb9ZdPJROw==}
+  /@builder.io/qwik@1.2.3(undici@5.22.1):
+    resolution: {integrity: sha512-Ej/zJTurwIGFqU1dBari9b/UNkNil3LlklCVFYijM447zfvjdbiyr8Tl6GQtsqnQuzp8uIQpnco5LMOcIQupgg==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
       undici: ^5.14.0
     dependencies:
+      csstype: 3.1.2
       undici: 5.22.1
     dev: true
 
@@ -1809,6 +1810,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       cssom: 0.3.8
+    dev: true
+
+  /csstype@3.1.2:
+    resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
   /data-uri-to-buffer@4.0.1:
