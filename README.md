@@ -1,199 +1,109 @@
-# 💠 Giz
+# Qwik City App ⚡️
 
-**Giz** is a free and open-source template to make your website using **[Qwik](https://qwik.builder.io/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account best practices.
+- [Qwik Docs](https://qwik.builder.io/)
+- [Discord](https://qwik.builder.io/chat)
+- [Qwik GitHub](https://github.com/BuilderIO/qwik)
+- [@QwikDev](https://twitter.com/QwikDev)
+- [Vite](https://vitejs.dev/)
 
-## Features
+---
 
-- ✅ Integration with **Tailwind CSS** supporting **Dark mode**.
-- ✅ **Production-ready** scores in [Lighthouse](https://web.dev/measure/) and [PageSpeed Insights](https://pagespeed.web.dev/) reports.
-- ✅ **Image optimization** and **Font optimization**.
+## Project Structure
 
-<br>
+This project is using Qwik with [QwikCity](https://qwik.builder.io/qwikcity/overview/). QwikCity is just an extra set of tools on top of Qwik to make it easier to build a full site, including directory-based routing, layouts, and more.
 
-<img src="./screenshot.jpg" alt="Giz Theme Screenshot">
-
-[![gizlang](https://custom-icon-badges.demolab.com/badge/made%20by%20-gizlang-556bf2?style=flat-square&logo=gizlang&logoColor=white&labelColor=101827)](https://gizlang.com)
-[![License](https://img.shields.io/github/license/gizlang/giz?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/gizlang/giz/blob/main/LICENSE.md)
-[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/gizlang)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/gizlang/giz#contributing)
-[![Known Vulnerabilities](https://snyk.io/test/github/gizlang/giz/badge.svg?style=flat-square)](https://snyk.io/test/github/gizlang/giz)
-
-<br>
-
-<details open>
-<summary>Table of Contents</summary>
-
-- [Demo](#demo)
-- [Getting started](#getting-started)
-  - [Project structure](#project-structure)
-  - [Commands](#commands)
-  - [Configuration](#configuration)
-  - [Deploy](#deploy)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
-
-</details>
-
-<br>
-
-## Demo
-
-📌 [https://giz.pages.dev/](https://giz.pages.dev/)
-
-<br>
-
-## Getting started
-
-This project is using Qwik with [QwikCity](https://qwik.builder.io/qwikcity/overview/). QwikCity is just a extra set of tools on top of Qwik to make it easier to build a full site, including directory-based routing, layouts, and more.
-
-### Project structure
-
-Inside **Giz** template, you'll see the following folders and files:
+Inside your project, you'll see the following directory structure:
 
 ```
-/
-├── adaptors/
-|   └── static/
-|       └── vite.config.ts
 ├── public/
-│   ├── favicon.svg
-│   ├── manifest.json
-│   └── robots.txt
-├── src/
-│   ├── assets/
-│   │   ├── images/
-|   |   └── styles/
-|   |       └── global.css
-│   ├── components/
-│   │   ├── atoms/
-│   │   ├── core/
-│   │   ├── icons/
-|   |   └── widgets/
-|   |       ├── Header.astro
-|   |       ├── Footer.astro
-|   |       └── ...
-│   ├── content/
-│   |   ├── blog/
-│   |   |   ├── post-slug-1.md
-│   |   |   ├── post-slug-2.md
-│   |   |   └── ...
-│   ├── routes/
-│   |   ├── blog/
-│   |   ├── index.astro
-|   |   ├── layout.tsx
-|   |   └-- service-worker.ts
-│   ├── config.mjs
-│   ├── entry.dev.tsx
-│   ├── entry.preview.tsx
-│   ├── entry.ssr.tsx
-│   └── root.tsx
-├── package.json
-└── ...
+│   └── ...
+└── src/
+    ├── components/
+    │   └── ...
+    └── routes/
+        └── ...
 ```
 
-- `src/routes`: Provides the directory based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.builder.io/qwikcity/routing/overview/) for more info.
+- `src/routes`: Provides the directory-based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.builder.io/qwikcity/routing/overview/) for more info.
 
 - `src/components`: Recommended directory for components.
 
 - `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
 
-[![Edit Giz on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/gizlang/giz/tree/main)
+## Add Integrations and deployment
 
-> **Seasoned qwik expert?** Delete this file. Update `config.mjs` and contents. Have fun!
-
-<br>
-
-### Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command            | Action                                         |
-| :----------------- | :--------------------------------------------- |
-| `npm install`      | Installs dependencies                          |
-| `npm run dev`      | Starts local dev server at `127.0.0.1:5173/`   |
-| `npm run build`    | Build your production site to `./dist/`        |
-| `npm run preview`  | Preview your build locally, before deploying   |
-| `npm run fmt`      | Format codes with Prettier                     |
-| `npm run lint`     | Run Eslint                                     |
-| `npm run qwik ...` | Run CLI commands like `qwik add`, `qwik build` |
-
-<br>
-
-### Configuration
-
-Basic configuration file: `./src/config.mjs`
-
-```javascript
-export const SITE = {
-  name: 'Example',
-
-  origin: 'https://example.com',
-  basePathname: '/', // Change this if you need to deploy to Github Pages, for example
-  trailingSlash: true, // Generate permalinks with or without "/" at the end
-};
-```
-
-<br>
-
-### Deploy
-
-#### Deploy to production (manual)
-
-You can create an optimized production build with:
+Use the `pnpm qwik add` command to add additional integrations. Some examples of integrations includes: Cloudflare, Netlify or Express Server, and the [Static Site Generator (SSG)](https://qwik.builder.io/qwikcity/guides/static-site-generation/).
 
 ```shell
-npm run build
+pnpm qwik add # or `yarn qwik add`
 ```
 
-Now, your website is ready to be deployed. All generated files are located at
-`dist` folder, which you can deploy the folder to any hosting service you
-prefer.
+## Development
 
-#### Deploy to Netlify
+Development mode uses [Vite's development server](https://vitejs.dev/). The `dev` command will server-side render (SSR) the output during development.
 
-Clone this repository on own GitHub account and deploy to Netlify:
+```shell
+npm start # or `yarn start`
+```
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gizlang/giz)
+> Note: during dev mode, Vite may request a significant number of `.js` files. This does not represent a Qwik production build.
 
-#### Deploy to Vercel
+## Preview
 
-Clone this repository on own GitHub account and deploy to Vercel:
+The preview command will create a production build of the client modules, a production build of `src/entry.preview.tsx`, and run a local server. The preview server is only for convenience to preview a production build locally and should not be used as a production server.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgizlang%2Fgiz)
+```shell
+pnpm preview # or `yarn preview`
+```
 
-<br>
+## Production
 
-## Roadmap
+The production build will generate client and server modules by running both client and server build commands. The build command will use Typescript to run a type check on the source code.
 
-### Base
+```shell
+pnpm build # or `yarn build`
+```
 
-- [ ] Create utilities to generate permalinks tailored to the domain and base pathname.
-- [ ] Simplify the way to optimize images.
-- [ ] Create component to make SEO simpler and more intuitive.
-- [ ] Create configurable blog with categories, tags and authors using MDX.
-- [ ] Add more frequently used pages (Portfolio, Services, Contact, Docs ...).
-- [ ] Find or create a library to have more icon sources available.
-- [ ] Refactor some code that doesn't follow Qwik conventions yet.
+## Vercel Edge
 
-### Advanced
+This starter site is configured to deploy to [Vercel Edge Functions](https://vercel.com/docs/concepts/functions/edge-functions), which means it will be rendered at an edge location near to your users.
 
-- [ ] Achieve perfect 100% Google Page Speed score.
-- [ ] Insert complex javascript example widget on home page to demonstrate Qwik features.
-- [ ] Create small illustrative admin backend.
+## Installation
 
-<br>
+The adaptor will add a new `vite.config.ts` within the `adapters/` directory, and a new entry file will be created, such as:
 
-## Contributing
+```
+└── adapters/
+    └── vercel-edge/
+        └── vite.config.ts
+└── src/
+    └── entry.vercel-edge.tsx
+```
 
-If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request.
-That would be very useful for all of us and we would be happy to listen and take action.
+Additionally, within the `package.json`, the `build.server` script will be updated with the Vercel Edge build.
 
-## Acknowledgements
+## Production build
 
-Initially created by [gizlang](https://gizlang.com) and maintained by a community of [contributors](https://github.com/gizlang/giz/graphs/contributors).
+To build the application for production, use the `build` command, this command will automatically run `pnpm build.server` and `pnpm build.client`:
 
-## License
+```shell
+pnpm build
+```
 
-**Giz** is licensed under the MIT license — see the [LICENSE](https://github.com/gizlang/giz/blob/main/LICENSE.md) file for details.
+[Read the full guide here](https://github.com/BuilderIO/qwik/blob/main/starters/adapters/vercel-edge/README.md)
+
+## Dev deploy
+
+To deploy the application for development:
+
+```shell
+pnpm deploy
+```
+
+Notice that you might need a [Vercel account](https://docs.Vercel.com/get-started/) in order to complete this step!
+
+## Production deploy
+
+The project is ready to be deployed to Vercel. However, you will need to create a git repository and push the code to it.
+
+You can [deploy your site to Vercel](https://vercel.com/docs/concepts/deployments/overview) either via a Git provider integration or through the Vercel CLI.
