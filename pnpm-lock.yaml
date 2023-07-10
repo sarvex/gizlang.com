@@ -47,8 +47,8 @@ devDependencies:
     specifier: 8.44.0
     version: 8.44.0
   eslint-plugin-qwik:
-    specifier: 1.2.2
-    version: 1.2.2(eslint@8.44.0)
+    specifier: 1.2.6
+    version: 1.2.6(eslint@8.44.0)
   gray-matter:
     specifier: 4.0.3
     version: 4.0.3
@@ -1124,6 +1124,16 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /array.prototype.flat@1.3.1:
+    resolution: {integrity: sha512-roTU0KWIOmJ4DRLmwKd19Otg0/mT3qPNt0Qb3GWW8iObuZXxrjB/pzn0R3hqpRSWg4HCwqx+0vwOnWnvlOyeIA==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      define-properties: 1.2.0
+      es-abstract: 1.21.2
+      es-shim-unscopables: 1.0.0
+    dev: true
+
   /assetgraph@7.10.0:
     resolution: {integrity: sha512-m+++muV+P+6bTqZuJ+7seJEfd20a0U1ZHrtWPDPiwXeEPhq/9VBEIGpq5FCuiZwtDeMMNwDmpEsRVy4+JNRXag==}
     dependencies:
@@ -2118,6 +2128,12 @@ packages:
       has-tostringtag: 1.0.0
     dev: true
 
+  /es-shim-unscopables@1.0.0:
+    resolution: {integrity: sha512-Jm6GPcCdC30eMLbZ2x8z2WuRwAws3zTBBKuusffYVUrNj/GVSUAZ+xKMaUpfNDR5IbyNA5LJbaecoUVbmUcB1w==}
+    dependencies:
+      has: 1.0.3
+    dev: true
+
   /es-to-primitive@1.2.1:
     resolution: {integrity: sha512-QCOllgZJtaUo9miYBcLChTUaHNjJF3PYs1VidD7AwiEj1kYxKeQTctLAezAOH5ZKRH0g2IgPn6KwB4IT8iRpvA==}
     engines: {node: '>= 0.4'}
@@ -2205,14 +2221,14 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-plugin-qwik@1.2.2(eslint@8.44.0):
-    resolution: {integrity: sha512-G03YLV8EZsmpNxyl5vMcQ8hAv1FP6YLg+8Ab3gvT2Opgxm47KUBmMC/RbIHF3Oxw+kMrkbKqT3jLhrT2VDC8Hw==}
-    engines: {node: '>=16'}
+  /eslint-plugin-qwik@1.2.6(eslint@8.44.0):
+    resolution: {integrity: sha512-AY0+0Omu3yu85gm2PjfjyG8pAXBntZPwDpIHXOvav1FmrocwW+khR8QGZpjIu2jirZ8xol9d+TITgzHms8Llxw==}
+    engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       eslint: '>= 8'
     dependencies:
       eslint: 8.44.0
-      jsx-ast-utils: 3.3.3
+      jsx-ast-utils: 3.3.4
     dev: true
 
   /eslint-scope@5.1.1:
@@ -3315,12 +3331,14 @@ packages:
       graceful-fs: 4.2.11
     dev: true
 
-  /jsx-ast-utils@3.3.3:
-    resolution: {integrity: sha512-fYQHZTZ8jSfmWZ0iyzfwiU4WDX4HpHbMCZ3gPlWYiCl3BoeOTsqKBqnTVfH2rYT7eP5c3sVbeSPHnnJOaTrWiw==}
+  /jsx-ast-utils@3.3.4:
+    resolution: {integrity: sha512-fX2TVdCViod6HwKEtSWGHs57oFhVfCMwieb9PuRDgjDPh5XeqJiHFFFJCHxU5cnTc3Bu/GRL+kPiFmw8XWOfKw==}
     engines: {node: '>=4.0'}
     dependencies:
       array-includes: 3.1.6
+      array.prototype.flat: 1.3.1
       object.assign: 4.1.4
+      object.values: 1.1.6
     dev: true
 
   /kind-of@6.0.3:
@@ -4197,6 +4215,15 @@ packages:
       define-properties: 1.2.0
       has-symbols: 1.0.3
       object-keys: 1.1.1
+    dev: true
+
+  /object.values@1.1.6:
+    resolution: {integrity: sha512-FVVTkD1vENCsAcwNs9k6jea2uHC/X0+JcjG8YA60FN5CMaJmG95wT9jek/xX9nornqGRrBkKtzuAu2wuHpKqvw==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      define-properties: 1.2.0
+      es-abstract: 1.21.2
     dev: true
 
   /once@1.4.0:
