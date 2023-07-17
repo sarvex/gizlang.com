@@ -33,7 +33,7 @@
     "@playwright/test": "1.35.1",
     "@storybook/addon-essentials": "7.0.26",
     "@storybook/addon-links": "7.0.26",
-    "@storybook/blocks": "7.0.26",
+    "@storybook/blocks": "7.0.27",
     "@storybook/builder-vite": "7.0.26",
     "@storybook/html": "7.0.26",
     "@storybook/html-vite": "7.0.26",
