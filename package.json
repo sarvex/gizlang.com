@@ -32,7 +32,7 @@
     "@builder.io/qwik-city": "1.2.6",
     "@playwright/test": "1.36.2",
     "@storybook/addon-essentials": "7.2.0",
-    "@storybook/addon-links": "7.2.0",
+    "@storybook/addon-links": "7.2.1",
     "@storybook/blocks": "7.2.0",
     "@storybook/builder-vite": "7.2.0",
     "@storybook/html": "7.2.0",
