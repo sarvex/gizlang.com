@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@modular-forms/qwik':
-    specifier: 0.20.0
-    version: 0.20.0(@builder.io/qwik-city@1.2.7)(@builder.io/qwik@1.2.7)
+    specifier: 0.20.1
+    version: 0.20.1(@builder.io/qwik-city@1.2.7)(@builder.io/qwik@1.2.7)
   '@qwikest/icons':
     specifier: 0.0.8
     version: 0.0.8(@builder.io/qwik@1.2.7)
@@ -2242,8 +2242,8 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@modular-forms/qwik@0.20.0(@builder.io/qwik-city@1.2.7)(@builder.io/qwik@1.2.7):
-    resolution: {integrity: sha512-B58W9ksTQtVrXefbMMrmafQXFR7ZisxxB326/57WtNtiZLZ9omAXKE+8dyWmDVYcG3XqzqgVps8LD5hxqVBvpg==}
+  /@modular-forms/qwik@0.20.1(@builder.io/qwik-city@1.2.7)(@builder.io/qwik@1.2.7):
+    resolution: {integrity: sha512-xtEKKj5Tb86/eFrmVtQaxqrL5lFX8fbJNWg9wZlCbJYFT16euwiS08km5DShTqnAzLEjRfMkQvfnWIjx0EoVCw==}
     peerDependencies:
       '@builder.io/qwik': ^1.2.4
       '@builder.io/qwik-city': ^1.2.4
