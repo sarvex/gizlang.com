@@ -15,8 +15,8 @@ dependencies:
     specifier: 0.0.25
     version: 0.0.25(@builder.io/qwik@1.2.10)
   qwik-image:
-    specifier: 0.0.7
-    version: 0.0.7
+    specifier: 0.0.8
+    version: 0.0.8
 
 devDependencies:
   '@builder.io/partytown':
@@ -9073,8 +9073,8 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /qwik-image@0.0.7:
-    resolution: {integrity: sha512-JodIaKlasCuaGe7hM30LVdD4GMVJ4Lp8W9cakU1PAkPe9teC3APOLta3qmVMbAtV0gXmeLq4y/EDwl/44rRX2g==}
+  /qwik-image@0.0.8:
+    resolution: {integrity: sha512-scmrnRVpTWpVESHEkE/9EZ6diy7K8dhRTh4nqEIj9al4PafY8o3sIsV4oxjG+1wn1TIXd1CJmnTCLEJ37gvgAA==}
     dev: false
 
   /ramda@0.29.0:
