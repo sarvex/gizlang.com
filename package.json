@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@modular-forms/qwik": "0.21.0",
-    "@qwikest/icons": "0.0.10",
+    "@qwikest/icons": "0.0.13",
     "@unpic/qwik": "0.0.27",
     "qwik-image": "0.0.8"
   }
