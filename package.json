@@ -28,8 +28,8 @@
   },
   "devDependencies": {
     "@builder.io/partytown": "0.8.1",
-    "@builder.io/qwik": "1.2.14",
-    "@builder.io/qwik-city": "1.2.14",
+    "@builder.io/qwik": "1.2.15",
+    "@builder.io/qwik-city": "1.2.15",
     "@playwright/test": "1.39.0",
     "@storybook/addon-essentials": "7.5.1",
     "@storybook/addon-links": "7.5.1",
@@ -38,19 +38,19 @@
     "@storybook/html": "7.5.1",
     "@storybook/html-vite": "7.5.1",
     "@types/eslint": "8.44.6",
-    "@types/node": "20.8.8",
+    "@types/node": "20.8.9",
     "@typescript-eslint/eslint-plugin": "6.9.0",
     "@typescript-eslint/parser": "6.9.0",
     "@vitest/ui": "0.34.6",
     "autoprefixer": "10.4.16",
     "eslint": "8.52.0",
-    "eslint-plugin-qwik": "1.2.14",
+    "eslint-plugin-qwik": "1.2.15",
     "postcss": "8.4.31",
     "prettier": "3.0.3",
     "prettier-plugin-tailwindcss": "0.5.6",
     "storybook": "7.5.1",
     "storybook-framework-qwik": "0.2.4",
-    "tailwindcss": "3.3.3",
+    "tailwindcss": "3.3.5",
     "typescript": "5.2.2",
     "undici": "5.26.5",
     "vercel": "32.5.0",
@@ -61,7 +61,7 @@
   "dependencies": {
     "@modular-forms/qwik": "0.21.0",
     "@qwikest/icons": "0.0.13",
-    "@unpic/qwik": "0.0.27",
+    "@unpic/qwik": "0.0.28",
     "qwik-image": "0.0.8"
   }
 }
