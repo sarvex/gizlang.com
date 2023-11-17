@@ -28,8 +28,8 @@
   },
   "devDependencies": {
     "@builder.io/partytown": "0.8.1",
-    "@builder.io/qwik": "1.2.17",
-    "@builder.io/qwik-city": "1.2.17",
+    "@builder.io/qwik": "1.2.18",
+    "@builder.io/qwik-city": "1.2.18",
     "@playwright/test": "1.40.0",
     "@storybook/addon-essentials": "7.5.3",
     "@storybook/addon-links": "7.5.3",
@@ -38,13 +38,13 @@
     "@storybook/html": "7.5.3",
     "@storybook/html-vite": "7.5.3",
     "@types/eslint": "8.44.7",
-    "@types/node": "20.9.0",
+    "@types/node": "20.9.1",
     "@typescript-eslint/eslint-plugin": "6.10.0",
     "@typescript-eslint/parser": "6.10.0",
     "@vitest/ui": "0.34.6",
     "autoprefixer": "10.4.16",
     "eslint": "8.53.0",
-    "eslint-plugin-qwik": "1.2.17",
+    "eslint-plugin-qwik": "1.2.18",
     "postcss": "8.4.31",
     "prettier": "3.1.0",
     "prettier-plugin-tailwindcss": "0.5.7",
@@ -53,7 +53,7 @@
     "tailwindcss": "3.3.5",
     "typescript": "5.2.2",
     "undici": "5.27.2",
-    "vercel": "32.5.3",
+    "vercel": "32.5.5",
     "vite": "4.5.0",
     "vite-tsconfig-paths": "4.2.1",
     "vitest": "0.34.6"
@@ -61,7 +61,7 @@
   "dependencies": {
     "@modular-forms/qwik": "0.21.0",
     "@qwikest/icons": "0.0.13",
-    "@unpic/qwik": "0.0.32",
+    "@unpic/qwik": "0.0.36",
     "qwik-image": "0.0.8"
   }
 }
