@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@modular-forms/qwik':
     specifier: 0.21.0
-    version: 0.21.0(@builder.io/qwik-city@1.2.18)(@builder.io/qwik@1.2.18)
+    version: 0.21.0(@builder.io/qwik-city@1.2.18)(@builder.io/qwik@1.2.19)
   '@qwikest/icons':
     specifier: 0.0.13
-    version: 0.0.13(@builder.io/qwik@1.2.18)
+    version: 0.0.13(@builder.io/qwik@1.2.19)
   '@unpic/qwik':
     specifier: 0.0.36
-    version: 0.0.36(@builder.io/qwik@1.2.18)
+    version: 0.0.36(@builder.io/qwik@1.2.19)
   qwik-image:
     specifier: 0.0.8
     version: 0.0.8
@@ -23,8 +23,8 @@ devDependencies:
     specifier: 0.8.1
     version: 0.8.1
   '@builder.io/qwik':
-    specifier: 1.2.18
-    version: 1.2.18(@types/node@20.9.3)(undici@5.27.2)
+    specifier: 1.2.19
+    version: 1.2.19(@types/node@20.9.3)(undici@5.27.2)
   '@builder.io/qwik-city':
     specifier: 1.2.18
     version: 1.2.18(@types/node@20.9.3)
@@ -87,7 +87,7 @@ devDependencies:
     version: 7.5.3
   storybook-framework-qwik:
     specifier: 0.2.4
-    version: 0.2.4(@builder.io/qwik@1.2.18)(@types/node@20.9.3)(typescript@5.3.2)(vite@5.0.2)
+    version: 0.2.4(@builder.io/qwik@1.2.19)(@types/node@20.9.3)(typescript@5.3.2)(vite@5.0.2)
   tailwindcss:
     specifier: 3.3.5
     version: 3.3.5
@@ -1501,8 +1501,8 @@ packages:
       - supports-color
       - terser
 
-  /@builder.io/qwik@1.2.18(@types/node@20.9.3)(undici@5.27.2):
-    resolution: {integrity: sha512-YfkpRI8IoJ6OkIlMoJ4jdjbotZSmBfMtf9ibxbf9vZLgKVLkSbSb4hgpA+NMWwQb/ojgn/6YJ49MwaZP81sm4Q==}
+  /@builder.io/qwik@1.2.19(@types/node@20.9.3)(undici@5.27.2):
+    resolution: {integrity: sha512-nmext30MPih1vSgsNpdx2jzBbeBKpsWjsLFI0Shs9+ec3z2QUrE9NJO+2P7cduxNt87hyul+twJ3UlJJ6pKxUQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -2219,13 +2219,13 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@modular-forms/qwik@0.21.0(@builder.io/qwik-city@1.2.18)(@builder.io/qwik@1.2.18):
+  /@modular-forms/qwik@0.21.0(@builder.io/qwik-city@1.2.18)(@builder.io/qwik@1.2.19):
     resolution: {integrity: sha512-PJnGnXfAI9JStXZbgAByGOsTTuSkVhjb8FRDgrdHa33zoHOvC5PkA2ymxN7JK1LodKd4FC3c7ZlFv5goYFCKDA==}
     peerDependencies:
       '@builder.io/qwik': ^1.2.4
       '@builder.io/qwik-city': ^1.2.4
     dependencies:
-      '@builder.io/qwik': 1.2.18(@types/node@20.9.3)(undici@5.27.2)
+      '@builder.io/qwik': 1.2.19(@types/node@20.9.3)(undici@5.27.2)
       '@builder.io/qwik-city': 1.2.18(@types/node@20.9.3)
     dev: false
 
@@ -2282,13 +2282,13 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@qwikest/icons@0.0.13(@builder.io/qwik@1.2.18):
+  /@qwikest/icons@0.0.13(@builder.io/qwik@1.2.19):
     resolution: {integrity: sha512-e0wY8vmx0nDSUiuCATlk+ojTvdBV4txIGHHWjZW5SRkv4XB8H9+3WSDcLPz0ItUdRyzcrohE9k2jtQI/98aRPA==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
     dependencies:
-      '@builder.io/qwik': 1.2.18(@types/node@20.9.3)(undici@5.27.2)
+      '@builder.io/qwik': 1.2.19(@types/node@20.9.3)(undici@5.27.2)
     dev: false
 
   /@radix-ui/number@1.0.1:
@@ -4336,13 +4336,13 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@unpic/qwik@0.0.36(@builder.io/qwik@1.2.18):
+  /@unpic/qwik@0.0.36(@builder.io/qwik@1.2.19):
     resolution: {integrity: sha512-/RhzfFnP/0krYA7l2qkEI89smtC3/A8YY38/eK1e9yUAAD/2YP5gdW/NqVke/UR2k/c9OCE03GLAu1im7Ff1ag==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.2.18(@types/node@20.9.3)(undici@5.27.2)
+      '@builder.io/qwik': 1.2.19(@types/node@20.9.3)(undici@5.27.2)
     dev: false
 
   /@vercel/build-utils@7.2.5:
@@ -9842,13 +9842,13 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.2.4(@builder.io/qwik@1.2.18)(@types/node@20.9.3)(typescript@5.3.2)(vite@5.0.2):
+  /storybook-framework-qwik@0.2.4(@builder.io/qwik@1.2.19)(@types/node@20.9.3)(typescript@5.3.2)(vite@5.0.2):
     resolution: {integrity: sha512-+2H5vx32qYLRU8j4N9ZckwJBzpiMzDHzU6MD8MS107LLfoW9Fe8X4CY8FVzbzWwRwYaQL5QRWCo4TxtNgpeK8Q==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.2.18(@types/node@20.9.3)(undici@5.27.2)
+      '@builder.io/qwik': 1.2.19(@types/node@20.9.3)(undici@5.27.2)
       '@storybook/builder-vite': 7.5.3(typescript@5.3.2)(vite@5.0.2)
       '@storybook/docs-tools': 7.4.0
       magic-string: 0.30.1
