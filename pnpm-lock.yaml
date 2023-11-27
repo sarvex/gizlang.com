@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@modular-forms/qwik':
     specifier: 0.21.0
-    version: 0.21.0(@builder.io/qwik-city@1.2.18)(@builder.io/qwik@1.2.18)
+    version: 0.21.0(@builder.io/qwik-city@1.2.19)(@builder.io/qwik@1.2.18)
   '@qwikest/icons':
     specifier: 0.0.13
     version: 0.0.13(@builder.io/qwik@1.2.18)
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 1.2.18
     version: 1.2.18(@types/node@20.9.3)(undici@5.27.2)
   '@builder.io/qwik-city':
-    specifier: 1.2.18
-    version: 1.2.18(@types/node@20.9.3)
+    specifier: 1.2.19
+    version: 1.2.19(@types/node@20.9.3)
   '@playwright/test':
     specifier: 1.40.0
     version: 1.40.0
@@ -1477,8 +1477,8 @@ packages:
     hasBin: true
     dev: true
 
-  /@builder.io/qwik-city@1.2.18(@types/node@20.9.3):
-    resolution: {integrity: sha512-MfWzMLi0MaoPpI11g4qXVF5mX6hqfjsIS3G+1FUU+x4FIJFcbTu9cMnbaw5YdMOgNdJRS5wf2M++KXVy5oyJ/w==}
+  /@builder.io/qwik-city@1.2.19(@types/node@20.9.3):
+    resolution: {integrity: sha512-RAjS1HRuRgi2YX8Gj54MIpnXtpaJyS8RrOH34ujfOlcSg9V17gcdceS24E8+llcEAYikAU6GP7T9bC5tSIRaPg==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
@@ -2219,14 +2219,14 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@modular-forms/qwik@0.21.0(@builder.io/qwik-city@1.2.18)(@builder.io/qwik@1.2.18):
+  /@modular-forms/qwik@0.21.0(@builder.io/qwik-city@1.2.19)(@builder.io/qwik@1.2.18):
     resolution: {integrity: sha512-PJnGnXfAI9JStXZbgAByGOsTTuSkVhjb8FRDgrdHa33zoHOvC5PkA2ymxN7JK1LodKd4FC3c7ZlFv5goYFCKDA==}
     peerDependencies:
       '@builder.io/qwik': ^1.2.4
       '@builder.io/qwik-city': ^1.2.4
     dependencies:
       '@builder.io/qwik': 1.2.18(@types/node@20.9.3)(undici@5.27.2)
-      '@builder.io/qwik-city': 1.2.18(@types/node@20.9.3)
+      '@builder.io/qwik-city': 1.2.19(@types/node@20.9.3)
     dev: false
 
   /@ndelangen/get-tarball@3.0.9:
@@ -9854,7 +9854,7 @@ packages:
       magic-string: 0.30.1
       react-docgen-typescript: 2.2.2(typescript@5.3.2)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.2.18(@types/node@20.9.3)
+      '@builder.io/qwik-city': 1.2.19(@types/node@20.9.3)
     transitivePeerDependencies:
       - '@preact/preset-vite'
       - '@types/node'
