@@ -24,7 +24,7 @@ devDependencies:
     version: 0.8.1
   '@builder.io/qwik':
     specifier: 1.2.19
-    version: 1.2.19(@types/node@20.10.4)(undici@5.28.2)
+    version: 1.2.19(@types/node@20.10.4)(undici@6.0.1)
   '@builder.io/qwik-city':
     specifier: 1.2.19
     version: 1.2.19(@types/node@20.10.4)
@@ -95,8 +95,8 @@ devDependencies:
     specifier: 5.3.3
     version: 5.3.3
   undici:
-    specifier: 5.28.2
-    version: 5.28.2
+    specifier: 6.0.1
+    version: 6.0.1
   vercel:
     specifier: 32.6.1
     version: 32.6.1
@@ -1426,7 +1426,7 @@ packages:
       - supports-color
       - terser
 
-  /@builder.io/qwik@1.2.19(@types/node@20.10.4)(undici@5.28.2):
+  /@builder.io/qwik@1.2.19(@types/node@20.10.4)(undici@6.0.1):
     resolution: {integrity: sha512-nmext30MPih1vSgsNpdx2jzBbeBKpsWjsLFI0Shs9+ec3z2QUrE9NJO+2P7cduxNt87hyul+twJ3UlJJ6pKxUQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -1434,7 +1434,7 @@ packages:
       undici: ^5.14.0
     dependencies:
       csstype: 3.1.2
-      undici: 5.28.2
+      undici: 6.0.1
       vite: 4.5.0(@types/node@20.10.4)
     transitivePeerDependencies:
       - '@types/node'
@@ -2150,7 +2150,7 @@ packages:
       '@builder.io/qwik': ^1.2.4
       '@builder.io/qwik-city': ^1.2.4
     dependencies:
-      '@builder.io/qwik': 1.2.19(@types/node@20.10.4)(undici@5.28.2)
+      '@builder.io/qwik': 1.2.19(@types/node@20.10.4)(undici@6.0.1)
       '@builder.io/qwik-city': 1.2.19(@types/node@20.10.4)
     dev: false
 
@@ -2208,7 +2208,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
     dependencies:
-      '@builder.io/qwik': 1.2.19(@types/node@20.10.4)(undici@5.28.2)
+      '@builder.io/qwik': 1.2.19(@types/node@20.10.4)(undici@6.0.1)
     dev: false
 
   /@radix-ui/number@1.0.1:
@@ -4107,7 +4107,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.2.19(@types/node@20.10.4)(undici@5.28.2)
+      '@builder.io/qwik': 1.2.19(@types/node@20.10.4)(undici@6.0.1)
     dev: false
 
   /@vercel/build-utils@7.2.5:
@@ -9592,7 +9592,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.2.19(@types/node@20.10.4)(undici@5.28.2)
+      '@builder.io/qwik': 1.2.19(@types/node@20.10.4)(undici@6.0.1)
       '@storybook/builder-vite': 7.6.4(typescript@5.3.3)(vite@5.0.4)
       '@storybook/docs-tools': 7.4.0
       magic-string: 0.30.1
@@ -10225,6 +10225,12 @@ packages:
   /undici@5.28.2:
     resolution: {integrity: sha512-wh1pHJHnUeQV5Xa8/kyQhO7WFa8M34l026L5P/+2TYiakvGy5Rdc8jWZVyG7ieht/0WgJLEd3kcU5gKx+6GC8w==}
     engines: {node: '>=14.0'}
+    dependencies:
+      '@fastify/busboy': 2.0.0
+
+  /undici@6.0.1:
+    resolution: {integrity: sha512-eZFYQLeS9BiXpsU0cuFhCwfeda2MnC48EVmmOz/eCjsTgmyTdaHdVsPSC/kwC2GtW2e0uH0HIPbadf3/bRWSxw==}
+    engines: {node: '>=18.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
 
