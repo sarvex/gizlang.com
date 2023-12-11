@@ -62,8 +62,8 @@ devDependencies:
     specifier: 6.13.2
     version: 6.13.2(eslint@8.55.0)(typescript@5.3.3)
   '@vitest/ui':
-    specifier: 1.0.2
-    version: 1.0.2(vitest@1.0.2)
+    specifier: 1.0.4
+    version: 1.0.4(vitest@1.0.2)
   autoprefixer:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.32)
@@ -108,7 +108,7 @@ devDependencies:
     version: 4.2.2(typescript@5.3.3)(vite@5.0.7)
   vitest:
     specifier: 1.0.2
-    version: 1.0.2(@types/node@20.10.4)(@vitest/ui@1.0.2)
+    version: 1.0.2(@types/node@20.10.4)(@vitest/ui@1.0.4)
 
 packages:
 
@@ -2177,13 +2177,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /@jest/schemas@29.6.0:
-    resolution: {integrity: sha512-rxLjXyJBTL4LQeJW3aKo0M/+GkCOXsO+8i9Iu7eDb6KwtP65ayoDsitrdPBtujxQ88k4wI2FNYfa6TOGwSn6cQ==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@sinclair/typebox': 0.27.8
-    dev: true
-
   /@jest/schemas@29.6.3:
     resolution: {integrity: sha512-mo5j5X+jIZmJQveBKeS/clAueipV7KgiX1vMgCxam1RNYiqE1w62n0/tJJnHtjW8ZHcQco5gY85jA3mi0L+nSA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -2218,7 +2211,7 @@ packages:
     resolution: {integrity: sha512-tPKQNMPuXgvdOn2/Lg9HNfUvjYVGolt04Hp03f5hAk878uwOLikN+JzeLY0HcVgKgFl9Hs3EIqpu3WX27XNhnw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@jest/schemas': 29.6.0
+      '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
       '@types/node': 20.10.4
@@ -3829,7 +3822,7 @@ packages:
   /@ts-morph/common@0.11.1:
     resolution: {integrity: sha512-7hWZS0NRpEsNV8vWJzg7FEz6V8MaLNeJOmwmghqUXTpzk16V1LLZhdo+4QvE/+zv4cVci0OviuJFnqhEfoV3+g==}
     dependencies:
-      fast-glob: 3.3.0
+      fast-glob: 3.3.2
       minimatch: 3.1.2
       mkdirp: 1.0.4
       path-browserify: 1.0.1
@@ -4480,23 +4473,31 @@ packages:
       tinyspy: 2.2.0
     dev: true
 
-  /@vitest/ui@1.0.2(vitest@1.0.2):
-    resolution: {integrity: sha512-8qFmXDsH5IWVA8B+F00G8Iq6jroSVWO/DrEquhB2K/khpdVbq1i2ufBGdNginv6m9x9Hw2y6kIWHltpOFRG+3A==}
+  /@vitest/ui@1.0.4(vitest@1.0.2):
+    resolution: {integrity: sha512-gd4p6e7pjukSe4joWS5wpnm/JcEfzCZUYkYWQOORqJK1mDJ0MOaXa/9BbPOEVO5TcvdnKvFJUdJpFHnqoyYwZA==}
     peerDependencies:
       vitest: ^1.0.0
     dependencies:
-      '@vitest/utils': 1.0.2
+      '@vitest/utils': 1.0.4
       fast-glob: 3.3.2
       fflate: 0.8.1
       flatted: 3.2.9
       pathe: 1.1.1
       picocolors: 1.0.0
       sirv: 2.0.3
-      vitest: 1.0.2(@types/node@20.10.4)(@vitest/ui@1.0.2)
+      vitest: 1.0.2(@types/node@20.10.4)(@vitest/ui@1.0.4)
     dev: true
 
   /@vitest/utils@1.0.2:
     resolution: {integrity: sha512-GPQkGHAnFAP/+seSbB9pCsj339yRrMgILoI5H2sPevTLCYgBq0VRjF8QSllmnQyvf0EontF6KUIt2t5s2SmqoQ==}
+    dependencies:
+      diff-sequences: 29.6.3
+      loupe: 2.3.7
+      pretty-format: 29.7.0
+    dev: true
+
+  /@vitest/utils@1.0.4:
+    resolution: {integrity: sha512-gsswWDXxtt0QvtK/y/LWukN7sGMYmnCcv1qv05CsY6cU/Y1zpGX1QuvLs+GO1inczpE6Owixeel3ShkjhYtGfA==}
     dependencies:
       diff-sequences: 29.6.3
       loupe: 2.3.7
@@ -5075,7 +5076,7 @@ packages:
       check-error: 1.0.3
       deep-eql: 4.1.3
       get-func-name: 2.0.2
-      loupe: 2.3.6
+      loupe: 2.3.7
       pathval: 1.1.1
       type-detect: 4.0.8
     dev: true
@@ -6504,12 +6505,8 @@ packages:
     resolution: {integrity: sha512-dm9s5Pw7Jc0GvMYbshN6zchCA9RgQlzzEZX3vylR9IqFfS8XciblUXOKfW6SiuJ0e13eDYZoZV5wdrev7P3Nwg==}
     engines: {node: ^10.12.0 || >=12.0.0}
     dependencies:
-      flatted: 3.2.7
+      flatted: 3.2.9
       rimraf: 3.0.2
-    dev: true
-
-  /flatted@3.2.7:
-    resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
   /flatted@3.2.9:
@@ -6827,7 +6824,7 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.3.0
+      fast-glob: 3.3.2
       ignore: 5.2.4
       merge2: 1.4.1
       slash: 3.0.0
@@ -7678,13 +7675,6 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
-    dev: true
-
-  /loupe@2.3.6:
-    resolution: {integrity: sha512-RaPMZKiMy8/JruncMU5Bt6na1eftNoo++R4Y+N2FrxkDVTrGvcyzFTsaGif4QTeKESheMGegbhw6iUAq+5A8zA==}
-    deprecated: Please upgrade to 2.3.7 which fixes GHSA-4q6p-r6v2-jvc5
-    dependencies:
-      get-func-name: 2.0.2
     dev: true
 
   /loupe@2.3.7:
@@ -10800,7 +10790,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitest@1.0.2(@types/node@20.10.4)(@vitest/ui@1.0.2):
+  /vitest@1.0.2(@types/node@20.10.4)(@vitest/ui@1.0.4):
     resolution: {integrity: sha512-F3NVwwpXfRSDnJmyv+ALPwSRVt0zDkRRE18pwUHSUPXAlWQ47rY1dc99ziMW5bBHyqwK2ERjMisLNoef64qk9w==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -10830,7 +10820,7 @@ packages:
       '@vitest/runner': 1.0.2
       '@vitest/snapshot': 1.0.2
       '@vitest/spy': 1.0.2
-      '@vitest/ui': 1.0.2(vitest@1.0.2)
+      '@vitest/ui': 1.0.4(vitest@1.0.2)
       '@vitest/utils': 1.0.2
       acorn-walk: 8.3.1
       cac: 6.7.14
