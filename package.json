@@ -59,7 +59,7 @@
     "vitest": "1.0.4"
   },
   "dependencies": {
-    "@modular-forms/qwik": "0.21.2",
+    "@modular-forms/qwik": "0.22.0",
     "@qwikest/icons": "0.0.13",
     "@unpic/qwik": "0.0.38",
     "qwik-image": "0.0.8"
