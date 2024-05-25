@@ -42,13 +42,13 @@ devDependencies:
     version: 7.6.19(react-dom@18.2.0)(react@18.2.0)
   '@storybook/builder-vite':
     specifier: 7.6.19
-    version: 7.6.19(typescript@5.3.3)(vite@5.0.13)
+    version: 7.6.19(typescript@5.3.3)(vite@5.2.11)
   '@storybook/html':
     specifier: 7.6.19
     version: 7.6.19(@babel/core@7.23.3)
   '@storybook/html-vite':
     specifier: 7.6.19
-    version: 7.6.19(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.13)
+    version: 7.6.19(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.2.11)
   '@types/eslint':
     specifier: 8.56.10
     version: 8.56.10
@@ -87,7 +87,7 @@ devDependencies:
     version: 7.6.19
   storybook-framework-qwik:
     specifier: 0.2.5
-    version: 0.2.5(@builder.io/qwik@1.5.5)(@types/node@20.11.16)(typescript@5.3.3)(vite@5.0.13)
+    version: 0.2.5(@builder.io/qwik@1.5.5)(@types/node@20.11.16)(typescript@5.3.3)(vite@5.2.11)
   tailwindcss:
     specifier: 3.4.3
     version: 3.4.3
@@ -101,11 +101,11 @@ devDependencies:
     specifier: 33.1.0
     version: 33.1.0
   vite:
-    specifier: 5.0.13
-    version: 5.0.13(@types/node@20.11.16)
+    specifier: 5.2.11
+    version: 5.2.11(@types/node@20.11.16)
   vite-tsconfig-paths:
     specifier: 4.3.2
-    version: 4.3.2(typescript@5.3.3)(vite@5.0.13)
+    version: 4.3.2(typescript@5.3.3)(vite@5.2.11)
   vitest:
     specifier: 1.2.0
     version: 1.2.0(@types/node@20.11.16)(@vitest/ui@1.2.0)
@@ -3148,27 +3148,11 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@rollup/rollup-android-arm-eabi@4.4.1:
-    resolution: {integrity: sha512-Ss4suS/sd+6xLRu+MLCkED2mUrAyqHmmvZB+zpzZ9Znn9S8wCkTQCJaQ8P8aHofnvG5L16u9MVnJjCqioPErwQ==}
-    cpu: [arm]
-    os: [android]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rollup/rollup-android-arm64@4.18.0:
     resolution: {integrity: sha512-avCea0RAP03lTsDhEyfy+hpfr85KfyTctMADqHVhLAF3MlIkq83CP8UfAHUssgXTYd+6er6PaAhx/QGv4L1EiA==}
     cpu: [arm64]
     os: [android]
     requiresBuild: true
-    optional: true
-
-  /@rollup/rollup-android-arm64@4.4.1:
-    resolution: {integrity: sha512-sRSkGTvGsARwWd7TzC8LKRf8FiPn7257vd/edzmvG4RIr9x68KBN0/Ek48CkuUJ5Pj/Dp9vKWv6PEupjKWjTYA==}
-    cpu: [arm64]
-    os: [android]
-    requiresBuild: true
-    dev: true
     optional: true
 
   /@rollup/rollup-darwin-arm64@4.18.0:
@@ -3178,14 +3162,6 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@rollup/rollup-darwin-arm64@4.4.1:
-    resolution: {integrity: sha512-nz0AiGrrXyaWpsmBXUGOBiRDU0wyfSXbFuF98pPvIO8O6auQsPG6riWsfQqmCCC5FNd8zKQ4JhgugRNAkBJ8mQ==}
-    cpu: [arm64]
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rollup/rollup-darwin-x64@4.18.0:
     resolution: {integrity: sha512-n2LMsUz7Ynu7DoQrSQkBf8iNrjOGyPLrdSg802vk6XT3FtsgX6JbE8IHRvposskFm9SNxzkLYGSq9QdpLYpRNA==}
     cpu: [x64]
@@ -3193,27 +3169,11 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@rollup/rollup-darwin-x64@4.4.1:
-    resolution: {integrity: sha512-Ogqvf4/Ve/faMaiPRvzsJEqajbqs00LO+8vtrPBVvLgdw4wBg6ZDXdkDAZO+4MLnrc8mhGV6VJAzYScZdPLtJg==}
-    cpu: [x64]
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rollup/rollup-linux-arm-gnueabihf@4.18.0:
     resolution: {integrity: sha512-C/zbRYRXFjWvz9Z4haRxcTdnkPt1BtCkz+7RtBSuNmKzMzp3ZxdM28Mpccn6pt28/UWUCTXa+b0Mx1k3g6NOMA==}
     cpu: [arm]
     os: [linux]
     requiresBuild: true
-    optional: true
-
-  /@rollup/rollup-linux-arm-gnueabihf@4.4.1:
-    resolution: {integrity: sha512-9zc2tqlr6HfO+hx9+wktUlWTRdje7Ub15iJqKcqg5uJZ+iKqmd2CMxlgPpXi7+bU7bjfDIuvCvnGk7wewFEhCg==}
-    cpu: [arm]
-    os: [linux]
-    requiresBuild: true
-    dev: true
     optional: true
 
   /@rollup/rollup-linux-arm-musleabihf@4.18.0:
@@ -3230,27 +3190,11 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@rollup/rollup-linux-arm64-gnu@4.4.1:
-    resolution: {integrity: sha512-phLb1fN3rq2o1j1v+nKxXUTSJnAhzhU0hLrl7Qzb0fLpwkGMHDem+o6d+ZI8+/BlTXfMU4kVWGvy6g9k/B8L6Q==}
-    cpu: [arm64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rollup/rollup-linux-arm64-musl@4.18.0:
     resolution: {integrity: sha512-be6Yx37b24ZwxQ+wOQXXLZqpq4jTckJhtGlWGZs68TgdKXJgw54lUUoFYrg6Zs/kjzAQwEwYbp8JxZVzZLRepQ==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    optional: true
-
-  /@rollup/rollup-linux-arm64-musl@4.4.1:
-    resolution: {integrity: sha512-M2sDtw4tf57VPSjbTAN/lz1doWUqO2CbQuX3L9K6GWIR5uw9j+ROKCvvUNBY8WUbMxwaoc8mH9HmmBKsLht7+w==}
-    cpu: [arm64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
     optional: true
 
   /@rollup/rollup-linux-powerpc64le-gnu@4.18.0:
@@ -3281,27 +3225,11 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@rollup/rollup-linux-x64-gnu@4.4.1:
-    resolution: {integrity: sha512-mHIlRLX+hx+30cD6c4BaBOsSqdnCE4ok7/KDvjHYAHoSuveoMMxIisZFvcLhUnyZcPBXDGZTuBoalcuh43UfQQ==}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rollup/rollup-linux-x64-musl@4.18.0:
     resolution: {integrity: sha512-LKaqQL9osY/ir2geuLVvRRs+utWUNilzdE90TpyoX0eNqPzWjRm14oMEE+YLve4k/NAqCdPkGYDaDF5Sw+xBfg==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    optional: true
-
-  /@rollup/rollup-linux-x64-musl@4.4.1:
-    resolution: {integrity: sha512-tB+RZuDi3zxFx7vDrjTNGVLu2KNyzYv+UY8jz7e4TMEoAj7iEt8Qk6xVu6mo3pgjnsHj6jnq3uuRsHp97DLwOA==}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
     optional: true
 
   /@rollup/rollup-win32-arm64-msvc@4.18.0:
@@ -3311,14 +3239,6 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@rollup/rollup-win32-arm64-msvc@4.4.1:
-    resolution: {integrity: sha512-Hdn39PzOQowK/HZzYpCuZdJC91PE6EaGbTe2VCA9oq2u18evkisQfws0Smh9QQGNNRa/T7MOuGNQoLeXhhE3PQ==}
-    cpu: [arm64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rollup/rollup-win32-ia32-msvc@4.18.0:
     resolution: {integrity: sha512-Txjh+IxBPbkUB9+SXZMpv+b/vnTEtFyfWZgJ6iyCmt2tdx0OF5WhFowLmnh8ENGNpfUlUZkdI//4IEmhwPieNg==}
     cpu: [ia32]
@@ -3326,27 +3246,11 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@rollup/rollup-win32-ia32-msvc@4.4.1:
-    resolution: {integrity: sha512-tLpKb1Elm9fM8c5w3nl4N1eLTP4bCqTYw9tqUBxX8/hsxqHO3dxc2qPbZ9PNkdK4tg4iLEYn0pOUnVByRd2CbA==}
-    cpu: [ia32]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rollup/rollup-win32-x64-msvc@4.18.0:
     resolution: {integrity: sha512-UOo5FdvOL0+eIVTgS4tIdbW+TtnBLWg1YBCcU2KWM7nuNwRz9bksDX1bekJJCpu25N1DVWaCwnT39dVQxzqS8g==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    optional: true
-
-  /@rollup/rollup-win32-x64-msvc@4.4.1:
-    resolution: {integrity: sha512-eAhItDX9yQtZVM3yvXS/VR3qPqcnXvnLyx1pLXl4JzyNMBNO3KC986t/iAg2zcMzpAp9JSvxB5VZGnBiNoA98w==}
-    cpu: [x64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
     optional: true
 
   /@sinclair/typebox@0.25.24:
@@ -3571,7 +3475,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-vite@7.6.19(typescript@5.3.3)(vite@5.0.13):
+  /@storybook/builder-vite@7.6.19(typescript@5.3.3)(vite@5.2.11):
     resolution: {integrity: sha512-llYpfYCHQCD0nPy+5J+H67iKcOpBrexIFO13wXxHQyl27Z+1T2JJj4cHqZs5S3a2XLiwf4df44NBvvwV5cmJmQ==}
     peerDependencies:
       '@preact/preset-vite': '*'
@@ -3603,7 +3507,7 @@ packages:
       magic-string: 0.30.5
       rollup: 3.28.0
       typescript: 5.3.3
-      vite: 5.0.13(@types/node@20.11.16)
+      vite: 5.2.11(@types/node@20.11.16)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3946,12 +3850,12 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/html-vite@7.6.19(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.13):
+  /@storybook/html-vite@7.6.19(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.2.11):
     resolution: {integrity: sha512-AoAWHl/K0uEl/Vtl7C3pP6nxNOkpnwba1wua8ykh2SGINTIGcvqsM/nR+swXzlSz2psNL1YKefZAKBL4oPzR4g==}
     engines: {node: ^14.18 || >=16}
     dependencies:
       '@storybook/addons': 7.6.19(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/builder-vite': 7.6.19(typescript@5.3.3)(vite@5.0.13)
+      '@storybook/builder-vite': 7.6.19(typescript@5.3.3)(vite@5.2.11)
       '@storybook/client-api': 7.6.19
       '@storybook/core-server': 7.6.19
       '@storybook/html': 7.6.19(@babel/core@7.23.3)
@@ -9862,26 +9766,6 @@ packages:
       '@rollup/rollup-win32-x64-msvc': 4.18.0
       fsevents: 2.3.3
 
-  /rollup@4.4.1:
-    resolution: {integrity: sha512-idZzrUpWSblPJX66i+GzrpjKE3vbYrlWirUHteoAbjKReZwa0cohAErOYA5efoMmNCdvG9yrJS+w9Kl6csaH4w==}
-    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
-    hasBin: true
-    optionalDependencies:
-      '@rollup/rollup-android-arm-eabi': 4.4.1
-      '@rollup/rollup-android-arm64': 4.4.1
-      '@rollup/rollup-darwin-arm64': 4.4.1
-      '@rollup/rollup-darwin-x64': 4.4.1
-      '@rollup/rollup-linux-arm-gnueabihf': 4.4.1
-      '@rollup/rollup-linux-arm64-gnu': 4.4.1
-      '@rollup/rollup-linux-arm64-musl': 4.4.1
-      '@rollup/rollup-linux-x64-gnu': 4.4.1
-      '@rollup/rollup-linux-x64-musl': 4.4.1
-      '@rollup/rollup-win32-arm64-msvc': 4.4.1
-      '@rollup/rollup-win32-ia32-msvc': 4.4.1
-      '@rollup/rollup-win32-x64-msvc': 4.4.1
-      fsevents: 2.3.3
-    dev: true
-
   /run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
     dependencies:
@@ -10160,14 +10044,14 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.2.5(@builder.io/qwik@1.5.5)(@types/node@20.11.16)(typescript@5.3.3)(vite@5.0.13):
+  /storybook-framework-qwik@0.2.5(@builder.io/qwik@1.5.5)(@types/node@20.11.16)(typescript@5.3.3)(vite@5.2.11):
     resolution: {integrity: sha512-wnJJwgV2zWK1+AfoEj5x1sSfpkac9p1SWX/Z+FHD0q78j4MbWRMcMIHvwIu777mBNDG3ixZRg3sY7dRW7C010g==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
       '@builder.io/qwik': 1.5.5(@types/node@20.11.16)(undici@6.18.1)
-      '@storybook/builder-vite': 7.6.19(typescript@5.3.3)(vite@5.0.13)
+      '@storybook/builder-vite': 7.6.19(typescript@5.3.3)(vite@5.2.11)
       '@storybook/docs-tools': 7.6.4
       magic-string: 0.30.5
       react-docgen-typescript: 2.2.2(typescript@5.3.3)
@@ -11093,7 +10977,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.3.2(typescript@5.3.3)(vite@5.0.13):
+  /vite-tsconfig-paths@4.3.2(typescript@5.3.3)(vite@5.2.11):
     resolution: {integrity: sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==}
     peerDependencies:
       vite: '*'
@@ -11104,7 +10988,7 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.3.3)
-      vite: 5.0.13(@types/node@20.11.16)
+      vite: 5.2.11(@types/node@20.11.16)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -11141,7 +11025,7 @@ packages:
       '@types/node': 20.11.16
       esbuild: 0.19.5
       postcss: 8.4.38
-      rollup: 4.4.1
+      rollup: 4.18.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
