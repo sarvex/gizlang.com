@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@modular-forms/qwik':
-    specifier: 0.22.0
-    version: 0.22.0(@builder.io/qwik-city@1.3.5)(@builder.io/qwik@1.3.5)
+    specifier: 0.24.0
+    version: 0.24.0(@builder.io/qwik-city@1.3.5)(@builder.io/qwik@1.3.5)
   '@qwikest/icons':
     specifier: 0.0.13
     version: 0.0.13(@builder.io/qwik@1.3.5)
@@ -2321,14 +2321,15 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@modular-forms/qwik@0.22.0(@builder.io/qwik-city@1.3.5)(@builder.io/qwik@1.3.5):
-    resolution: {integrity: sha512-VRUKOrMzU1HyPjDdWyrt2cZadvJRcPK1mP3oDpW8o5YTgiDvp6JZe2aL7HKqC/KPoP9MKTeVRo+/8F3WJYaJew==}
+  /@modular-forms/qwik@0.24.0(@builder.io/qwik-city@1.3.5)(@builder.io/qwik@1.3.5):
+    resolution: {integrity: sha512-mF+cOw2lmiEjCf7odYW65d1gxp5ozqAbDfX5Z6yAt0wE7wsRHBZgi0YoXAh63vRCEcR5UMG/9kdTXj3KCjxhug==}
     peerDependencies:
-      '@builder.io/qwik': ^1.2.4
-      '@builder.io/qwik-city': ^1.2.4
+      '@builder.io/qwik': ^1.4.0
+      '@builder.io/qwik-city': ^1.4.0
     dependencies:
       '@builder.io/qwik': 1.3.5(@types/node@20.11.16)(undici@6.18.1)
       '@builder.io/qwik-city': 1.3.5(@types/node@20.11.16)
+      decode-formdata: 0.7.2
     dev: false
 
   /@ndelangen/get-tarball@3.0.9:
@@ -5436,6 +5437,10 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
+
+  /decode-formdata@0.7.2:
+    resolution: {integrity: sha512-TaUPp8jmomdGWNind2R9MBIgZfYM4XSTebC+5d28dDx4k4BuZ5fiDvCutY0XQd2UJxrAHWq6CGXLmmbP5Ty8Vw==}
+    dev: false
 
   /decode-named-character-reference@1.0.2:
     resolution: {integrity: sha512-O8x12RzrUF8xyVcY0KJowWsmaJxQbmy0/EtnNtHRpsOcT7dFk5W598coHqBVpmWo1oQQfsCqfCmkZN5DJrZVdg==}
