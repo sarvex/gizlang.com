@@ -41,7 +41,7 @@
     "@types/node": "20.12.12",
     "@typescript-eslint/eslint-plugin": "7.11.0",
     "@typescript-eslint/parser": "7.11.0",
-    "@vitest/ui": "1.2.0",
+    "@vitest/ui": "1.6.0",
     "autoprefixer": "10.4.19",
     "eslint": "9.3.0",
     "eslint-plugin-qwik": "1.5.5",
@@ -56,7 +56,7 @@
     "vercel": "34.2.3",
     "vite": "5.2.11",
     "vite-tsconfig-paths": "4.3.2",
-    "vitest": "1.2.0"
+    "vitest": "1.6.0"
   },
   "dependencies": {
     "@modular-forms/qwik": "0.24.0",
