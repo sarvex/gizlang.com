@@ -82,8 +82,8 @@ importers:
         specifier: 3.3.3
         version: 3.3.3
       prettier-plugin-tailwindcss:
-        specifier: 0.6.5
-        version: 0.6.5(prettier@3.3.3)
+        specifier: 0.6.6
+        version: 0.6.6(prettier@3.3.3)
       storybook:
         specifier: 8.2.9
         version: 8.2.9(@babel/preset-env@7.24.6(@babel/core@7.24.6))
@@ -91,14 +91,14 @@ importers:
         specifier: 0.4.0
         version: 0.4.0(@builder.io/qwik@1.7.3(@types/node@20.14.14))(@types/node@20.14.14)(rollup@4.18.0)(storybook@8.2.9(@babel/preset-env@7.24.6(@babel/core@7.24.6)))(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.14))
       tailwindcss:
-        specifier: 3.4.7
-        version: 3.4.7(ts-node@10.9.1(@types/node@20.14.14)(typescript@5.5.4))
+        specifier: 3.4.10
+        version: 3.4.10(ts-node@10.9.1(@types/node@20.14.14)(typescript@5.5.4))
       typescript:
         specifier: 5.5.4
         version: 5.5.4
       undici:
-        specifier: 6.19.5
-        version: 6.19.5
+        specifier: 6.19.7
+        version: 6.19.7
       vercel:
         specifier: 34.2.7
         version: 34.2.7
@@ -4181,8 +4181,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-plugin-tailwindcss@0.6.5:
-    resolution: {integrity: sha512-axfeOArc/RiGHjOIy9HytehlC0ZLeMaqY09mm8YCkMzznKiDkwFzOpBvtuhuv3xG5qB73+Mj7OCe2j/L1ryfuQ==}
+  prettier-plugin-tailwindcss@0.6.6:
+    resolution: {integrity: sha512-OPva5S7WAsPLEsOuOWXATi13QrCKACCiIonFgIR6V4lYv4QLp++UXVhZSzRbZxXGimkQtQT86CC6fQqTOybGng==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -4196,6 +4196,7 @@ packages:
       prettier-plugin-import-sort: '*'
       prettier-plugin-jsdoc: '*'
       prettier-plugin-marko: '*'
+      prettier-plugin-multiline-arrays: '*'
       prettier-plugin-organize-attributes: '*'
       prettier-plugin-organize-imports: '*'
       prettier-plugin-sort-imports: '*'
@@ -4221,6 +4222,8 @@ packages:
       prettier-plugin-jsdoc:
         optional: true
       prettier-plugin-marko:
+        optional: true
+      prettier-plugin-multiline-arrays:
         optional: true
       prettier-plugin-organize-attributes:
         optional: true
@@ -4668,8 +4671,8 @@ packages:
   synchronous-promise@2.0.17:
     resolution: {integrity: sha512-AsS729u2RHUfEra9xJrE39peJcc2stq2+poBXX8bcM08Y6g9j/i/PUzwNQqkaJde7Ntg1TO7bSREbR5sdosQ+g==}
 
-  tailwindcss@3.4.7:
-    resolution: {integrity: sha512-rxWZbe87YJb4OcSopb7up2Ba4U82BoiSGUdoDr3Ydrg9ckxFS/YWsvhN323GMcddgU65QRy7JndC7ahhInhvlQ==}
+  tailwindcss@3.4.10:
+    resolution: {integrity: sha512-KWZkVPm7yJRhdu4SRSl9d4AK2wM3a50UsvgHZO7xY77NQr2V+fIrEuoDGQcbvswWvFGbS2f6e+jC/6WJm1Dl0w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -4860,8 +4863,8 @@ packages:
     resolution: {integrity: sha512-cSb4bPFd5qgR7qr2jYAi0hlX9n5YKK2ONKkLFkxl+v/9BvC0sOpZjBHDBSXc5lWAf5ty9oZdRXytBIHzgUcerw==}
     engines: {node: '>=14.0'}
 
-  undici@6.19.5:
-    resolution: {integrity: sha512-LryC15SWzqQsREHIOUybavaIHF5IoL0dJ9aWWxL/PgT1KfqAW5225FZpDUFlt9xiDMS2/S7DOKhFWA7RLksWdg==}
+  undici@6.19.7:
+    resolution: {integrity: sha512-HR3W/bMGPSr90i8AAp2C4DM3wChFdJPLrWYpIS++LxS8K+W535qftjt+4MyjNYHeWabMj1nvtmLIi7l++iq91A==}
     engines: {node: '>=18.17'}
 
   unicode-canonical-property-names-ecmascript@2.0.0:
@@ -5986,7 +5989,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.19.5
+      undici: 6.19.7
       vfile: 6.0.1
       vite: 5.3.5(@types/node@20.14.14)
       vite-imagetools: 6.2.9(rollup@4.18.0)
@@ -6009,7 +6012,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.19.5
+      undici: 6.19.7
       vfile: 6.0.1
       vite: 5.3.5(@types/node@20.14.14)
       vite-imagetools: 6.2.9(rollup@4.18.0)
@@ -10135,7 +10138,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-tailwindcss@0.6.5(prettier@3.3.3):
+  prettier-plugin-tailwindcss@0.6.6(prettier@3.3.3):
     dependencies:
       prettier: 3.3.3
 
@@ -10723,7 +10726,7 @@ snapshots:
 
   synchronous-promise@2.0.17: {}
 
-  tailwindcss@3.4.7(ts-node@10.9.1(@types/node@20.14.14)(typescript@5.5.4)):
+  tailwindcss@3.4.10(ts-node@10.9.1(@types/node@20.14.14)(typescript@5.5.4)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -10933,7 +10936,7 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.0.0
 
-  undici@6.19.5: {}
+  undici@6.19.7: {}
 
   unicode-canonical-property-names-ecmascript@2.0.0: {}
 
