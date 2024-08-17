@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@modular-forms/qwik':
-        specifier: 0.24.0
-        version: 0.24.0(@builder.io/qwik-city@1.5.7(@types/node@20.14.14)(rollup@4.18.0))(@builder.io/qwik@1.7.3(@types/node@20.14.14))
+        specifier: 0.26.1
+        version: 0.26.1(@builder.io/qwik-city@1.5.7(@types/node@20.14.14)(rollup@4.18.0))(@builder.io/qwik@1.7.3(@types/node@20.14.14))(typescript@5.4.5)
       '@qwikest/icons':
         specifier: 0.0.13
         version: 0.0.13(@builder.io/qwik@1.7.3(@types/node@20.14.14))
@@ -1419,8 +1419,8 @@ packages:
       '@types/react': '>=16'
       react: '>=16'
 
-  '@modular-forms/qwik@0.24.0':
-    resolution: {integrity: sha512-mF+cOw2lmiEjCf7odYW65d1gxp5ozqAbDfX5Z6yAt0wE7wsRHBZgi0YoXAh63vRCEcR5UMG/9kdTXj3KCjxhug==}
+  '@modular-forms/qwik@0.26.1':
+    resolution: {integrity: sha512-8/ANrC719G09NAOrC6PYkNIhjfMDHaoYr0rm8KWvOUvISGUSV8uKz/T6111Wv9e8vHjIooqGVBtEL5ec+nHIZw==}
     peerDependencies:
       '@builder.io/qwik': ^1.4.0
       '@builder.io/qwik-city': ^1.4.0
@@ -2763,8 +2763,8 @@ packages:
       supports-color:
         optional: true
 
-  decode-formdata@0.7.2:
-    resolution: {integrity: sha512-TaUPp8jmomdGWNind2R9MBIgZfYM4XSTebC+5d28dDx4k4BuZ5fiDvCutY0XQd2UJxrAHWq6CGXLmmbP5Ty8Vw==}
+  decode-formdata@0.7.5:
+    resolution: {integrity: sha512-zwz+xh+Z2R1s2hk14pGiwgVnYiw1UnlsoxHZ5neSXnslgET1weO0dw0d9dLpf1rxAtcvNXo59IMKq5avdaOcvA==}
 
   decode-named-character-reference@1.0.2:
     resolution: {integrity: sha512-O8x12RzrUF8xyVcY0KJowWsmaJxQbmy0/EtnNtHRpsOcT7dFk5W598coHqBVpmWo1oQQfsCqfCmkZN5DJrZVdg==}
@@ -5660,6 +5660,14 @@ packages:
   v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
 
+  valibot@0.37.0:
+    resolution: {integrity: sha512-FQz52I8RXgFgOHym3XHYSREbNtkgSjF9prvMFH1nBsRyfL6SfCzoT1GuSDTlbsuPubM7/6Kbw0ZMQb8A+V+VsQ==}
+    peerDependencies:
+      typescript: '>=5'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
@@ -7169,11 +7177,14 @@ snapshots:
       '@types/react': 18.2.14
       react: 18.2.0
 
-  '@modular-forms/qwik@0.24.0(@builder.io/qwik-city@1.5.7(@types/node@20.14.14)(rollup@4.18.0))(@builder.io/qwik@1.7.3(@types/node@20.14.14))':
+  '@modular-forms/qwik@0.26.1(@builder.io/qwik-city@1.5.7(@types/node@20.14.14)(rollup@4.18.0))(@builder.io/qwik@1.7.3(@types/node@20.14.14))(typescript@5.4.5)':
     dependencies:
       '@builder.io/qwik': 1.7.3(@types/node@20.14.14)
       '@builder.io/qwik-city': 1.5.7(@types/node@20.14.14)(rollup@4.18.0)
-      decode-formdata: 0.7.2
+      decode-formdata: 0.7.5
+      valibot: 0.37.0(typescript@5.4.5)
+    transitivePeerDependencies:
+      - typescript
 
   '@ndelangen/get-tarball@3.0.9':
     dependencies:
@@ -9038,7 +9049,7 @@ snapshots:
     dependencies:
       ms: 2.1.2
 
-  decode-formdata@0.7.2: {}
+  decode-formdata@0.7.5: {}
 
   decode-named-character-reference@1.0.2:
     dependencies:
@@ -12648,6 +12659,10 @@ snapshots:
     optional: true
 
   v8-compile-cache-lib@3.0.1: {}
+
+  valibot@0.37.0(typescript@5.4.5):
+    optionalDependencies:
+      typescript: 5.4.5
 
   validate-npm-package-license@3.0.4:
     dependencies:
