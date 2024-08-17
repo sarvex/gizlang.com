@@ -52,8 +52,8 @@ importers:
         specifier: 8.1.9
         version: 8.1.9(prettier@3.3.3)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5)(vite@5.3.5(@types/node@20.14.14))
       '@types/eslint':
-        specifier: 8.56.11
-        version: 8.56.11
+        specifier: 9.6.0
+        version: 9.6.0
       '@types/node':
         specifier: 20.14.14
         version: 20.14.14
@@ -1986,8 +1986,8 @@ packages:
   '@types/emscripten@1.39.7':
     resolution: {integrity: sha512-tLqYV94vuqDrXh515F/FOGtBcRMTPGvVV1LzLbtYDcQmmhtpf/gLYf+hikBbQk8MzOHNz37wpFfJbYAuSn8HqA==}
 
-  '@types/eslint@8.56.11':
-    resolution: {integrity: sha512-sVBpJMf7UPo/wGecYOpk2aQya2VUGeHhe38WG7/mN5FufNSubf5VT9Uh9Uyp8/eLJpu1/tuhJ/qTo4mhSB4V4Q==}
+  '@types/eslint@9.6.0':
+    resolution: {integrity: sha512-gi6WQJ7cHRgZxtkQEoyHMppPjq9Kxo5Tjn2prSKDSmZrCz8TZ3jSRCeTJm+WoM+oB0WG37bRqLzaaU3q7JypGg==}
 
   '@types/estree-jsx@1.0.0':
     resolution: {integrity: sha512-3qvGd0z8F2ENTGr/GG1yViqfiKmRfrXVx5sJyHGFu3z7m5g5utCQtGp/g29JnjflhtQJBv1WDQukHiT58xPcYQ==}
@@ -8132,7 +8132,7 @@ snapshots:
 
   '@types/emscripten@1.39.7': {}
 
-  '@types/eslint@8.56.11':
+  '@types/eslint@9.6.0':
     dependencies:
       '@types/estree': 1.0.5
       '@types/json-schema': 7.0.12
