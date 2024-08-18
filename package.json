@@ -55,7 +55,7 @@
     "undici": "6.19.7",
     "vercel": "34.2.7",
     "vite": "5.3.5",
-    "vite-tsconfig-paths": "4.3.2",
+    "vite-tsconfig-paths": "5.0.1",
     "vitest": "1.6.0"
   },
   "dependencies": {
