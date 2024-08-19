@@ -38,7 +38,7 @@
     "@storybook/html": "8.2.9",
     "@storybook/html-vite": "8.2.9",
     "@types/eslint": "9.6.0",
-    "@types/node": "20.14.14",
+    "@types/node": "20.16.1",
     "@typescript-eslint/eslint-plugin": "8.1.0",
     "@typescript-eslint/parser": "8.1.0",
     "@vitest/ui": "2.0.5",
