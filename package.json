@@ -30,7 +30,7 @@
     "@builder.io/partytown": "0.10.2",
     "@builder.io/qwik": "1.8.0",
     "@builder.io/qwik-city": "1.8.0",
-    "@playwright/test": "1.46.1",
+    "@playwright/test": "1.51.0",
     "@storybook/addon-essentials": "8.6.5",
     "@storybook/addon-links": "8.6.5",
     "@storybook/blocks": "8.6.5",
