@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@modular-forms/qwik':
         specifier: 0.29.1
-        version: 0.29.1(@builder.io/qwik-city@1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)))(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)))(typescript@5.8.2)
+        version: 0.29.1(@builder.io/qwik-city@1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)))(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)))(typescript@5.8.2)
       '@qwikest/icons':
         specifier: 0.0.13
-        version: 0.0.13(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)))
+        version: 0.0.13(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)))
       '@unpic/qwik':
         specifier: 0.0.46
-        version: 0.0.46(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)))
+        version: 0.0.46(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)))
       qwik-image:
         specifier: 0.0.16
         version: 0.0.16
@@ -26,10 +26,10 @@ importers:
         version: 0.10.3
       '@builder.io/qwik':
         specifier: 1.12.1
-        version: 1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+        version: 1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
       '@builder.io/qwik-city':
         specifier: 1.12.1
-        version: 1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+        version: 1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
       '@playwright/test':
         specifier: 1.51.0
         version: 1.51.0
@@ -44,19 +44,19 @@ importers:
         version: 8.6.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.6(prettier@3.5.3))
       '@storybook/builder-vite':
         specifier: 8.6.6
-        version: 8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+        version: 8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
       '@storybook/html':
         specifier: 8.6.6
         version: 8.6.6(storybook@8.6.6(prettier@3.5.3))
       '@storybook/html-vite':
         specifier: 8.6.6
-        version: 8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+        version: 8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
       '@types/eslint':
         specifier: 9.6.1
         version: 9.6.1
       '@types/node':
-        specifier: 20.16.1
-        version: 20.16.1
+        specifier: 20.17.24
+        version: 20.17.24
       '@typescript-eslint/eslint-plugin':
         specifier: 8.26.1
         version: 8.26.1(@typescript-eslint/parser@8.26.1(eslint@9.22.0(jiti@1.21.7))(typescript@5.8.2))(eslint@9.22.0(jiti@1.21.7))(typescript@5.8.2)
@@ -89,10 +89,10 @@ importers:
         version: 8.6.6(prettier@3.5.3)
       storybook-framework-qwik:
         specifier: 0.4.1
-        version: 0.4.1(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)))(rollup@4.35.0)(storybook@8.6.6(prettier@3.5.3))(typescript@5.8.2)(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+        version: 0.4.1(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)))(rollup@4.35.0)(storybook@8.6.6(prettier@3.5.3))(typescript@5.8.2)(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
       tailwindcss:
         specifier: 3.4.17
-        version: 3.4.17(ts-node@10.9.1(@types/node@20.16.1)(typescript@5.8.2))
+        version: 3.4.17(ts-node@10.9.1(@types/node@20.17.24)(typescript@5.8.2))
       typescript:
         specifier: 5.8.2
         version: 5.8.2
@@ -104,13 +104,13 @@ importers:
         version: 36.0.0
       vite:
         specifier: 6.2.2
-        version: 6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)
+        version: 6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)
       vite-tsconfig-paths:
         specifier: 5.0.1
-        version: 5.0.1(typescript@5.8.2)(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+        version: 5.0.1(typescript@5.8.2)(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
       vitest:
         specifier: 2.1.9
-        version: 2.1.9(@edge-runtime/vm@3.2.0)(@types/node@20.16.1)(@vitest/ui@2.0.5)
+        version: 2.1.9(@edge-runtime/vm@3.2.0)(@types/node@20.17.24)(@vitest/ui@2.0.5)
 
 packages:
 
@@ -1234,8 +1234,8 @@ packages:
   '@types/node@18.18.6':
     resolution: {integrity: sha512-wf3Vz+jCmOQ2HV1YUJuCWdL64adYxumkrxtc+H1VUQlnQI04+5HtH+qZCOE21lBE7gIrt+CwX2Wv8Acrw5Ak6w==}
 
-  '@types/node@20.16.1':
-    resolution: {integrity: sha512-zJDo7wEadFtSyNz5QITDfRcrhqDvQI1xQNQ0VoizPjM/dVAODqqIUWbJPkvsxmTI0MYRGRikcdjMPhOssnPejQ==}
+  '@types/node@20.17.24':
+    resolution: {integrity: sha512-d7fGCyB96w9BnWQrOsJtpyiSaBcAYYr75bnK6ZRjDbql2cGLj/3GsL5OYmLPNq76l7Gf2q4Rv9J2o6h5CrD9sA==}
 
   '@types/pretty-hrtime@1.0.1':
     resolution: {integrity: sha512-VjID5MJb1eGKthz2qUerWT8+R4b9N+CHvGCzg9fn4kWZgaF9AhdYikQio3R7wV8YY1NsQKPaCwKz1Yff+aHNUQ==}
@@ -4103,7 +4103,7 @@ snapshots:
 
   '@builder.io/partytown@0.10.3': {}
 
-  '@builder.io/qwik-city@1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))':
+  '@builder.io/qwik-city@1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
@@ -4112,7 +4112,7 @@ snapshots:
       undici: 7.5.0
       valibot: 0.42.1(typescript@5.8.2)
       vfile: 6.0.2
-      vite: 6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)
+      vite: 6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)
       vite-imagetools: 7.0.4(rollup@4.35.0)
       zod: 3.22.4
     transitivePeerDependencies:
@@ -4120,10 +4120,10 @@ snapshots:
       - supports-color
       - typescript
 
-  '@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))':
+  '@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
       csstype: 3.1.3
-      vite: 6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)
+      vite: 6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -4574,10 +4574,10 @@ snapshots:
       '@types/react': 18.2.14
       react: 18.2.0
 
-  '@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)))(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)))(typescript@5.8.2)':
+  '@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)))(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)))(typescript@5.8.2)':
     dependencies:
-      '@builder.io/qwik': 1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
-      '@builder.io/qwik-city': 1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+      '@builder.io/qwik': 1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
+      '@builder.io/qwik-city': 1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
       decode-formdata: 0.8.0
       valibot: 1.0.0-rc.4(typescript@5.8.2)
     transitivePeerDependencies:
@@ -4604,9 +4604,9 @@ snapshots:
 
   '@polka/url@1.0.0-next.24': {}
 
-  '@qwikest/icons@0.0.13(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)))':
+  '@qwikest/icons@0.0.13(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)))':
     dependencies:
-      '@builder.io/qwik': 1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+      '@builder.io/qwik': 1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
 
   '@rollup/pluginutils@4.2.1':
     dependencies:
@@ -4775,13 +4775,13 @@ snapshots:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
-  '@storybook/builder-vite@8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))':
+  '@storybook/builder-vite@8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
       '@storybook/csf-plugin': 8.6.6(storybook@8.6.6(prettier@3.5.3))
       browser-assert: 1.2.1
       storybook: 8.6.6(prettier@3.5.3)
       ts-dedent: 2.2.0
-      vite: 6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)
+      vite: 6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)
 
   '@storybook/channels@7.6.19':
     dependencies:
@@ -4878,9 +4878,9 @@ snapshots:
 
   '@storybook/global@5.0.0': {}
 
-  '@storybook/html-vite@8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))':
+  '@storybook/html-vite@8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
-      '@storybook/builder-vite': 8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+      '@storybook/builder-vite': 8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
       '@storybook/html': 8.6.6(storybook@8.6.6(prettier@3.5.3))
       magic-string: 0.30.10
       storybook: 8.6.6(prettier@3.5.3)
@@ -4993,11 +4993,11 @@ snapshots:
   '@types/body-parser@1.19.2':
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 20.16.1
+      '@types/node': 20.17.24
 
   '@types/connect@3.4.35':
     dependencies:
-      '@types/node': 20.16.1
+      '@types/node': 20.17.24
 
   '@types/debug@4.1.8':
     dependencies:
@@ -5018,7 +5018,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.17.35':
     dependencies:
-      '@types/node': 20.16.1
+      '@types/node': 20.17.24
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
       '@types/send': 0.17.1
@@ -5054,14 +5054,14 @@ snapshots:
 
   '@types/node-fetch@2.6.4':
     dependencies:
-      '@types/node': 20.16.1
+      '@types/node': 20.17.24
       form-data: 3.0.1
 
   '@types/node@16.18.11': {}
 
   '@types/node@18.18.6': {}
 
-  '@types/node@20.16.1':
+  '@types/node@20.17.24':
     dependencies:
       undici-types: 6.19.6
 
@@ -5084,13 +5084,13 @@ snapshots:
   '@types/send@0.17.1':
     dependencies:
       '@types/mime': 1.3.2
-      '@types/node': 20.16.1
+      '@types/node': 20.17.24
 
   '@types/serve-static@1.15.2':
     dependencies:
       '@types/http-errors': 2.0.1
       '@types/mime': 3.0.1
-      '@types/node': 20.16.1
+      '@types/node': 20.17.24
 
   '@types/unist@2.0.6': {}
 
@@ -5177,9 +5177,9 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@unpic/qwik@0.0.46(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)))':
+  '@unpic/qwik@0.0.46(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)))':
     dependencies:
-      '@builder.io/qwik': 1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+      '@builder.io/qwik': 1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
 
   '@vercel/build-utils@8.3.6': {}
 
@@ -5335,13 +5335,13 @@ snapshots:
       chai: 5.2.0
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.9(vite@5.4.14(@types/node@20.16.1))':
+  '@vitest/mocker@2.1.9(vite@5.4.14(@types/node@20.17.24))':
     dependencies:
       '@vitest/spy': 2.1.9
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 5.4.14(@types/node@20.16.1)
+      vite: 5.4.14(@types/node@20.17.24)
 
   '@vitest/pretty-format@2.0.5':
     dependencies:
@@ -5375,7 +5375,7 @@ snapshots:
       pathe: 1.1.2
       sirv: 2.0.4
       tinyrainbow: 1.2.0
-      vitest: 2.1.9(@edge-runtime/vm@3.2.0)(@types/node@20.16.1)(@vitest/ui@2.0.5)
+      vitest: 2.1.9(@edge-runtime/vm@3.2.0)(@types/node@20.17.24)(@vitest/ui@2.0.5)
 
   '@vitest/utils@2.0.5':
     dependencies:
@@ -7409,13 +7409,13 @@ snapshots:
       camelcase-css: 2.0.1
       postcss: 8.5.3
 
-  postcss-load-config@4.0.2(postcss@8.5.3)(ts-node@10.9.1(@types/node@20.16.1)(typescript@5.8.2)):
+  postcss-load-config@4.0.2(postcss@8.5.3)(ts-node@10.9.1(@types/node@20.17.24)(typescript@5.8.2)):
     dependencies:
       lilconfig: 3.1.3
       yaml: 2.7.0
     optionalDependencies:
       postcss: 8.5.3
-      ts-node: 10.9.1(@types/node@20.16.1)(typescript@5.8.2)
+      ts-node: 10.9.1(@types/node@20.17.24)(typescript@5.8.2)
 
   postcss-nested@6.2.0(postcss@8.5.3):
     dependencies:
@@ -7704,15 +7704,15 @@ snapshots:
 
   std-env@3.8.1: {}
 
-  storybook-framework-qwik@0.4.1(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)))(rollup@4.35.0)(storybook@8.6.6(prettier@3.5.3))(typescript@5.8.2)(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)):
+  storybook-framework-qwik@0.4.1(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)))(rollup@4.35.0)(storybook@8.6.6(prettier@3.5.3))(typescript@5.8.2)(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)):
     dependencies:
-      '@builder.io/qwik': 1.12.1(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
-      '@storybook/builder-vite': 8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+      '@builder.io/qwik': 1.12.1(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
+      '@storybook/builder-vite': 8.6.6(storybook@8.6.6(prettier@3.5.3))(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
       '@storybook/docs-tools': 7.6.19
       magic-string: 0.30.10
       react-docgen-typescript: 2.2.2(typescript@5.8.2)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0))
+      '@builder.io/qwik-city': 1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0))
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -7828,7 +7828,7 @@ snapshots:
 
   synchronous-promise@2.0.17: {}
 
-  tailwindcss@3.4.17(ts-node@10.9.1(@types/node@20.16.1)(typescript@5.8.2)):
+  tailwindcss@3.4.17(ts-node@10.9.1(@types/node@20.17.24)(typescript@5.8.2)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -7847,7 +7847,7 @@ snapshots:
       postcss: 8.5.3
       postcss-import: 15.1.0(postcss@8.5.3)
       postcss-js: 4.0.1(postcss@8.5.3)
-      postcss-load-config: 4.0.2(postcss@8.5.3)(ts-node@10.9.1(@types/node@20.16.1)(typescript@5.8.2))
+      postcss-load-config: 4.0.2(postcss@8.5.3)(ts-node@10.9.1(@types/node@20.17.24)(typescript@5.8.2))
       postcss-nested: 6.2.0(postcss@8.5.3)
       postcss-selector-parser: 6.1.2
       resolve: 1.22.10
@@ -7951,14 +7951,14 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
-  ts-node@10.9.1(@types/node@20.16.1)(typescript@5.8.2):
+  ts-node@10.9.1(@types/node@20.17.24)(typescript@5.8.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.9
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.16.1
+      '@types/node': 20.17.24
       acorn: 8.12.1
       acorn-walk: 8.3.2
       arg: 4.1.3
@@ -8142,13 +8142,13 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  vite-node@2.1.9(@types/node@20.16.1):
+  vite-node@2.1.9(@types/node@20.17.24):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
       es-module-lexer: 1.6.0
       pathe: 1.1.2
-      vite: 5.4.14(@types/node@20.16.1)
+      vite: 5.4.14(@types/node@20.17.24)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -8160,41 +8160,41 @@ snapshots:
       - supports-color
       - terser
 
-  vite-tsconfig-paths@5.0.1(typescript@5.8.2)(vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)):
+  vite-tsconfig-paths@5.0.1(typescript@5.8.2)(vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)):
     dependencies:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.8.2)
     optionalDependencies:
-      vite: 6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0)
+      vite: 6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@5.4.14(@types/node@20.16.1):
+  vite@5.4.14(@types/node@20.17.24):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.3
       rollup: 4.35.0
     optionalDependencies:
-      '@types/node': 20.16.1
+      '@types/node': 20.17.24
       fsevents: 2.3.3
 
-  vite@6.2.2(@types/node@20.16.1)(jiti@1.21.7)(yaml@2.7.0):
+  vite@6.2.2(@types/node@20.17.24)(jiti@1.21.7)(yaml@2.7.0):
     dependencies:
       esbuild: 0.25.1
       postcss: 8.5.3
       rollup: 4.35.0
     optionalDependencies:
-      '@types/node': 20.16.1
+      '@types/node': 20.17.24
       fsevents: 2.3.3
       jiti: 1.21.7
       yaml: 2.7.0
 
-  vitest@2.1.9(@edge-runtime/vm@3.2.0)(@types/node@20.16.1)(@vitest/ui@2.0.5):
+  vitest@2.1.9(@edge-runtime/vm@3.2.0)(@types/node@20.17.24)(@vitest/ui@2.0.5):
     dependencies:
       '@vitest/expect': 2.1.9
-      '@vitest/mocker': 2.1.9(vite@5.4.14(@types/node@20.16.1))
+      '@vitest/mocker': 2.1.9(vite@5.4.14(@types/node@20.17.24))
       '@vitest/pretty-format': 2.1.9
       '@vitest/runner': 2.1.9
       '@vitest/snapshot': 2.1.9
@@ -8210,12 +8210,12 @@ snapshots:
       tinyexec: 0.3.2
       tinypool: 1.0.2
       tinyrainbow: 1.2.0
-      vite: 5.4.14(@types/node@20.16.1)
-      vite-node: 2.1.9(@types/node@20.16.1)
+      vite: 5.4.14(@types/node@20.17.24)
+      vite-node: 2.1.9(@types/node@20.17.24)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@edge-runtime/vm': 3.2.0
-      '@types/node': 20.16.1
+      '@types/node': 20.17.24
       '@vitest/ui': 2.0.5(vitest@2.1.9)
     transitivePeerDependencies:
       - less
