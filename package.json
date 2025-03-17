@@ -45,7 +45,7 @@
     "autoprefixer": "10.4.21",
     "eslint": "9.22.0",
     "eslint-plugin-qwik": "1.12.1",
-    "postcss": "8.4.41",
+    "postcss": "8.5.3",
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "0.6.11",
     "storybook": "8.6.6",
