@@ -15,8 +15,8 @@ importers:
         specifier: 0.0.13
         version: 0.0.13(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.7)(yaml@2.7.0)))
       '@unpic/qwik':
-        specifier: 0.0.46
-        version: 0.0.46(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.7)(yaml@2.7.0)))
+        specifier: 1.0.0
+        version: 1.0.0(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.7)(yaml@2.7.0)))
       qwik-image:
         specifier: 0.0.16
         version: 0.0.16
@@ -1305,8 +1305,8 @@ packages:
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
 
-  '@unpic/qwik@0.0.46':
-    resolution: {integrity: sha512-Nki7Y9uKwVUJv6A2IY3PjOz2Ma0s7lcpIMK7s8lGEtqvXzxdV2yomWWvePI8oZZXdZnwWFjy8/t2G9UqXeZIsA==}
+  '@unpic/qwik@1.0.0':
+    resolution: {integrity: sha512-ESPOWYuYYTCT/d1AvEqxx6XFEE7dEdwsbtHCImiZxqRNtQf4I3q6GpOX5e7VSduCLpoGvjj3ZdZzYG/Ypa6drQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       '@builder.io/qwik': '*'
@@ -4978,7 +4978,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@unpic/qwik@0.0.46(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.7)(yaml@2.7.0)))':
+  '@unpic/qwik@1.0.0(@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.7)(yaml@2.7.0)))':
     dependencies:
       '@builder.io/qwik': 1.12.1(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.7)(yaml@2.7.0))
 
