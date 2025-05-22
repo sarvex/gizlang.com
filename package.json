@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@builder.io/partytown": "0.10.3",
-    "@builder.io/qwik": "1.12.1",
+    "@builder.io/qwik": "1.14.1",
     "@builder.io/qwik-city": "1.12.1",
     "@playwright/test": "1.51.1",
     "@storybook/addon-essentials": "8.6.11",
