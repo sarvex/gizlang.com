@@ -31,8 +31,8 @@ importers:
         specifier: 1.12.1
         version: 1.12.1(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(jiti@1.21.7)(yaml@2.7.0))
       '@playwright/test':
-        specifier: 1.51.1
-        version: 1.51.1
+        specifier: 1.55.0
+        version: 1.55.0
       '@storybook/addon-essentials':
         specifier: 8.6.11
         version: 8.6.11(@types/react@18.2.14)(storybook@8.6.11(prettier@3.6.2))
@@ -701,8 +701,8 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@playwright/test@1.51.1':
-    resolution: {integrity: sha512-nM+kEaTSAoVlXmMPH10017vn3FSiFqr/bh4fKg9vmAdMfd9SDqRZNvPSiAHADc/itWak+qPvMPZQOPwCBW7k7Q==}
+  '@playwright/test@1.55.0':
+    resolution: {integrity: sha512-04IXzPwHrW69XusN/SIdDdKZBzMfOT9UNT/YiJit/xpy2VuAoB8NHc8Aplb96zsWDddLnbkPL3TsmrS04ZU2xQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2856,13 +2856,13 @@ packages:
     resolution: {integrity: sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==}
     engines: {node: '>=10'}
 
-  playwright-core@1.51.1:
-    resolution: {integrity: sha512-/crRMj8+j/Nq5s8QcvegseuyeZPxpQCZb6HNk3Sos3BlZyAknRjoyJPFWkpNn8v0+P3WiwqFF8P+zQo4eqiNuw==}
+  playwright-core@1.55.0:
+    resolution: {integrity: sha512-GvZs4vU3U5ro2nZpeiwyb0zuFaqb9sUiAJuyrWpcGouD8y9/HLgGbNRjIph7zU9D3hnPaisMl9zG9CgFi/biIg==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.51.1:
-    resolution: {integrity: sha512-kkx+MB2KQRkyxjYPc3a0wLZZoDczmppyGJIvQ43l+aZihkaVvmu/21kiyaHeHjiFxjxNNFnUncKmcGIyOojsaw==}
+  playwright@1.55.0:
+    resolution: {integrity: sha512-sdCWStblvV1YU909Xqx0DhOjPZE4/5lJsIS84IfN9dAZfcl/CIZ5O8l3o0j7hPMjDvqoTF8ZUcc+i/GL5erstA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -4091,9 +4091,9 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@playwright/test@1.51.1':
+  '@playwright/test@1.55.0':
     dependencies:
-      playwright: 1.51.1
+      playwright: 1.55.0
 
   '@polka/url@1.0.0-next.24': {}
 
@@ -6688,11 +6688,11 @@ snapshots:
     dependencies:
       find-up: 5.0.0
 
-  playwright-core@1.51.1: {}
+  playwright-core@1.55.0: {}
 
-  playwright@1.51.1:
+  playwright@1.55.0:
     dependencies:
-      playwright-core: 1.51.1
+      playwright-core: 1.55.0
     optionalDependencies:
       fsevents: 2.3.2
 
