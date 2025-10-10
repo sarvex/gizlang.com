@@ -62,6 +62,6 @@
     "@modular-forms/qwik": "0.29.1",
     "@qwikest/icons": "0.0.13",
     "@unpic/qwik": "1.0.0",
-    "qwik-image": "0.0.16"
+    "qwik-image": "2.0.3"
   }
 }
