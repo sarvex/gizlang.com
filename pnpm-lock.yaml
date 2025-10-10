@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@modular-forms/qwik':
         specifier: 0.29.1
-        version: 0.29.1(@builder.io/qwik-city@1.12.1(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0)))(@builder.io/qwik@1.17.0(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0)))(typescript@5.8.2)
+        version: 0.29.1(@builder.io/qwik-city@1.13.0(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0)))(@builder.io/qwik@1.17.0(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0)))(typescript@5.8.2)
       '@qwikest/icons':
         specifier: 0.0.13
         version: 0.0.13(@builder.io/qwik@1.17.0(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0)))
@@ -28,8 +28,8 @@ importers:
         specifier: 1.17.0
         version: 1.17.0(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))
       '@builder.io/qwik-city':
-        specifier: 1.12.1
-        version: 1.12.1(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))
+        specifier: 1.13.0
+        version: 1.13.0(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))
       '@playwright/test':
         specifier: 1.56.0
         version: 1.56.0
@@ -145,8 +145,8 @@ packages:
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     hasBin: true
 
-  '@builder.io/qwik-city@1.12.1':
-    resolution: {integrity: sha512-YLW+33PZVoc4O30J99Fs3uNNpi7BszPzaITKoW66Sphju5Ptn6HDQkfnBu2sHFB0bh8hWLWatAjOM1HXg/C96Q==}
+  '@builder.io/qwik-city@1.13.0':
+    resolution: {integrity: sha512-CDo5/JBLyJkC8uWn/DO5SnhXzGPLr9ecbAprloQMwoDaYFh846DRXhD+dK1Sqoa84O40+dk3p5Zltf2SkXdV2w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       vite: ^5
@@ -714,15 +714,6 @@ packages:
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
-
-  '@rollup/pluginutils@5.1.0':
-    resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
-    peerDependenciesMeta:
-      rollup:
-        optional: true
 
   '@rollup/pluginutils@5.1.4':
     resolution: {integrity: sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==}
@@ -3823,7 +3814,7 @@ snapshots:
 
   '@builder.io/partytown@0.10.3': {}
 
-  '@builder.io/qwik-city@1.12.1(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))':
+  '@builder.io/qwik-city@1.13.0(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
@@ -4191,7 +4182,7 @@ snapshots:
 
   '@mdx-js/mdx@3.0.1':
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
       '@types/estree-jsx': 1.0.0
       '@types/hast': 3.0.4
       '@types/mdx': 2.0.13
@@ -4223,10 +4214,10 @@ snapshots:
       '@types/react': 18.2.14
       react: 18.2.0
 
-  '@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.12.1(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0)))(@builder.io/qwik@1.17.0(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0)))(typescript@5.8.2)':
+  '@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.13.0(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0)))(@builder.io/qwik@1.17.0(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0)))(typescript@5.8.2)':
     dependencies:
       '@builder.io/qwik': 1.17.0(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))
-      '@builder.io/qwik-city': 1.12.1(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))
+      '@builder.io/qwik-city': 1.13.0(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))
       decode-formdata: 0.8.0
       valibot: 1.0.0-rc.4(typescript@5.8.2)
     transitivePeerDependencies:
@@ -4257,19 +4248,11 @@ snapshots:
     dependencies:
       '@builder.io/qwik': 1.17.0(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))
 
-  '@rollup/pluginutils@5.1.0(rollup@4.52.4)':
-    dependencies:
-      '@types/estree': 1.0.6
-      estree-walker: 2.0.2
-      picomatch: 2.3.1
-    optionalDependencies:
-      rollup: 4.52.4
-
   '@rollup/pluginutils@5.1.4(rollup@4.52.4)':
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
       estree-walker: 2.0.2
-      picomatch: 4.0.2
+      picomatch: 4.0.3
     optionalDependencies:
       rollup: 4.52.4
 
@@ -4685,7 +4668,7 @@ snapshots:
 
   '@types/acorn@4.0.6':
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
 
   '@types/babel__core@7.20.1':
     dependencies:
@@ -4736,7 +4719,7 @@ snapshots:
 
   '@types/estree-jsx@1.0.0':
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
 
   '@types/estree@1.0.6': {}
 
@@ -5124,10 +5107,6 @@ snapshots:
   abbrev@3.0.0: {}
 
   acorn-import-attributes@1.9.5(acorn@8.14.1):
-    dependencies:
-      acorn: 8.14.1
-
-  acorn-jsx@5.3.2(acorn@8.14.1):
     dependencies:
       acorn: 8.14.1
 
@@ -5798,7 +5777,7 @@ snapshots:
 
   estree-util-attach-comments@3.0.0:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
 
   estree-util-build-jsx@3.0.1:
     dependencies:
@@ -5824,7 +5803,7 @@ snapshots:
 
   estree-walker@3.0.3:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
 
   esutils@2.0.3: {}
 
@@ -6049,7 +6028,7 @@ snapshots:
 
   hast-util-to-estree@3.1.0:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
       '@types/estree-jsx': 1.0.0
       '@types/hast': 3.0.4
       comma-separated-tokens: 2.0.3
@@ -6070,7 +6049,7 @@ snapshots:
 
   hast-util-to-jsx-runtime@2.3.0:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
       '@types/hast': 3.0.4
       '@types/unist': 3.0.0
       comma-separated-tokens: 2.0.3
@@ -6222,7 +6201,7 @@ snapshots:
 
   is-reference@3.0.1:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
 
   is-regex@1.1.4:
     dependencies:
@@ -6518,7 +6497,7 @@ snapshots:
 
   micromark-extension-mdx-expression@3.0.0:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       micromark-factory-mdx-expression: 2.0.1
       micromark-factory-space: 2.0.0
@@ -6530,7 +6509,7 @@ snapshots:
   micromark-extension-mdx-jsx@3.0.0:
     dependencies:
       '@types/acorn': 4.0.6
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       estree-util-is-identifier-name: 3.0.0
       micromark-factory-mdx-expression: 2.0.1
@@ -6546,7 +6525,7 @@ snapshots:
 
   micromark-extension-mdxjs-esm@3.0.0:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.1
       micromark-util-character: 2.1.0
@@ -6558,8 +6537,8 @@ snapshots:
 
   micromark-extension-mdxjs@3.0.0:
     dependencies:
-      acorn: 8.14.1
-      acorn-jsx: 5.3.2(acorn@8.14.1)
+      acorn: 8.15.0
+      acorn-jsx: 5.3.2(acorn@8.15.0)
       micromark-extension-mdx-expression: 3.0.0
       micromark-extension-mdx-jsx: 3.0.0
       micromark-extension-mdx-md: 2.0.0
@@ -6582,7 +6561,7 @@ snapshots:
 
   micromark-factory-mdx-expression@2.0.1:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       micromark-util-character: 2.1.0
       micromark-util-events-to-acorn: 2.0.2
@@ -6646,7 +6625,7 @@ snapshots:
   micromark-util-events-to-acorn@2.0.2:
     dependencies:
       '@types/acorn': 4.0.6
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
       '@types/unist': 3.0.0
       devlop: 1.1.0
       estree-util-visit: 2.0.0
@@ -6684,7 +6663,7 @@ snapshots:
   micromark@4.0.0:
     dependencies:
       '@types/debug': 4.1.8
-      debug: 4.4.0
+      debug: 4.4.3
       decode-named-character-reference: 1.0.2
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.1
@@ -6913,7 +6892,7 @@ snapshots:
 
   periscopic@3.1.0:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.8
       estree-walker: 3.0.3
       is-reference: 3.0.1
 
@@ -7225,7 +7204,7 @@ snapshots:
       magic-string: 0.30.10
       react-docgen-typescript: 2.2.2(typescript@5.8.2)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.12.1(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))
+      '@builder.io/qwik-city': 1.13.0(rollup@4.52.4)(typescript@5.8.2)(vite@6.2.4(@types/node@22.18.9)(jiti@1.21.7)(yaml@2.7.0))
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -7585,7 +7564,7 @@ snapshots:
 
   vite-imagetools@7.0.4(rollup@4.52.4):
     dependencies:
-      '@rollup/pluginutils': 5.1.0(rollup@4.52.4)
+      '@rollup/pluginutils': 5.1.4(rollup@4.52.4)
       imagetools-core: 7.0.1
       sharp: 0.33.5
     transitivePeerDependencies:
